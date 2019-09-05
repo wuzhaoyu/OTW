@@ -176,7 +176,7 @@
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-com.wzy.aop</artifactId>
+            <artifactId>spring-boot-starter-aop</artifactId>
         </dependency>
         <!--监控-->
         <dependency>
@@ -206,17 +206,13 @@
             <artifactId>hutool-all</artifactId>
             <version>${hutool.version}</version>
         </dependency>
-        <dependency>
-          <groupId>org.aspectj</groupId>
-          <artifactId>aspectjweaver</artifactId>
-        </dependency>
+
         <!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
             <version>27.0.1-jre</version>
         </dependency>
-
         <!--  <dependency>
               <groupId>cn.hutool</groupId>
               <artifactId>hutool-all</artifactId>
