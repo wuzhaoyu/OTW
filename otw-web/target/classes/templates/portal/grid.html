@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<body xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>On The Way</title>
+
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <style>
+        .grid-portfolio {
+            padding: 0px
+        }
+
+        .grid-portfolio .container {
+            padding: 0px;
+            width: auto;
+        }
+    </style>
+    <script src="../../static/portal/js/common/commonJS.js"></script>
+    <script src="../../static/portal/js/common/commonCss.js"></script>
+</head>
+
+<body>
+
+<nav>
+    <div class="logo">
+        <a href="./grid">ON THE WAY<!--<em>way</em>--></a>
+    </div>
+    <div class="menu-icon">
+        <span></span>
+    </div>
+</nav>
+
+<div id="video-container">
+    <div class="video-overlay"></div>
+    <div class="video-content">
+        <div class="inner">
+            <h1>你 我 一路 同 行<!--<em>Highway</em>--></h1>
+            <!--<p>FREE CSS TEMPLATE by <a href="#" rel="nofollow">templatemo</a></p>-->
+            <p>分享点滴生活</p>
+            <div class="scroll-icon">
+                <a class="scrollTo" data-scrollTo="portfolio" href="#"><img
+                        src="../../static/portal/img/scroll-icon.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <video autoplay="" loop="" muted>
+        <!--<source src="../../static/portal/video/highway-loop.mp4" type="video/mp4" />-->
+        <!--     <source src="../../static/portal/video/The-Surfers.mp4" type="video/mp4" />-->
+        <source src="../../static/portal/video/Dreamy-Basketball.mp4" type="video/mp4"/>
+        <!--     <source src="../../static/portal/video/Feeling-the-Air.mp4" type="video/mp4" />-->
+    </video>
+</div>
+
+<div class="services">
+    <div class="container">
+        <div class="col-md-4 col-sm-6">
+            <div class="service-item">
+                <div class="icon">
+                    <img src="../../static/portal/img/service_1.png" alt="">
+                </div>
+                <div class="text">
+                    <h4>FREE CSS TEMPLATE</h4>
+                    <p>Highway is a good CSS template that is available for free. Please tell your friends about <a href="#">templatemo</a>. Thank you.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="service-item">
+                <div class="icon">
+                    <img src="../../static/portal/img/service_2.png" alt="">
+                </div>
+                <div class="text">
+                    <h4>Aenean pellentesque</h4>
+                    <p>Donec et nisi sed magna tincidunt fermentum. Pellentesque eget semper felis, sit amet scelerisque neque.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="service-item">
+                <div class="icon">
+                    <img src="../../static/portal/img/service_3.png" alt="">
+                </div>
+                <div class="text">
+                    <h4>Quisque et odio</h4>
+                    <p>Donec et nisi sed magna tincidunt fermentum. Pellentesque eget semper felis, sit amet scelerisque neque.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="service-item">
+                <div class="icon">
+                    <img src="../../static/portal/img/service_4.png" alt="">
+                </div>
+                <div class="text">
+                    <h4>Nullam et justo</h4>
+                    <p>Donec et nisi sed magna tincidunt fermentum. Pellentesque eget semper felis, sit amet scelerisque neque.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="service-item">
+                <div class="icon">
+                    <img src="../../static/portal/img/service_5.png" alt="">
+                </div>
+                <div class="text">
+                    <h4>Integer ac justo</h4>
+                    <p>Donec et nisi sed magna tincidunt fermentum. Pellentesque eget semper felis, sit amet scelerisque neque.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="service-item">
+                <div class="icon">
+                    <img src="../../static/portal/img/service_6.png" alt="">
+                </div>
+                <div class="text">
+                    <h4>Nunc sit amet nibh</h4>
+                    <p>Donec et nisi sed magna tincidunt fermentum. Pellentesque eget semper felis, sit amet scelerisque neque.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="grid-portfolio" id="portfolio">
+    <div class="container">
+        <div class="loader">
+            <div class="lds-ripple">
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <!-- coidea:loader END -->
+
+
+        <!-- slideshow START -->
+<!--        <section class="slideshow">-->
+
+<!--            &lt;!&ndash; slideshow:navigation START &ndash;&gt;-->
+<!--            <ul class="navigation">-->
+
+<!--                &lt;!&ndash; slideshow:navigation:item START &ndash;&gt;-->
+<!--                <li class="navigation-item active">-->
+<!--                    <span class="rotate-holder"></span>-->
+<!--                    <span class="background-holder"-->
+<!--                          style="background-image: url(../../static/portal/assets/img/img-1.jpg);"></span>-->
+<!--                </li>-->
+<!--                &lt;!&ndash; slideshow:navigation:item END &ndash;&gt;-->
+
+<!--                &lt;!&ndash; slideshow:navigation:item START &ndash;&gt;-->
+<!--                <li class="navigation-item">-->
+<!--                    <span class="rotate-holder"></span>-->
+<!--                    <span class="background-holder"-->
+<!--                          style="background-image: url(../../static/portal/assets/img/img-2.jpg);"></span>-->
+<!--                </li>-->
+<!--                &lt;!&ndash; slideshow:navigation:item END &ndash;&gt;-->
+
+<!--                &lt;!&ndash; slideshow:navigation:item START &ndash;&gt;-->
+<!--                <li class="navigation-item">-->
+<!--                    <span class="rotate-holder"></span>-->
+<!--                    <span class="background-holder"-->
+<!--                          style="background-image: url(../../static/portal/assets/img/img-3.jpg);"></span>-->
+<!--                </li>-->
+<!--                &lt;!&ndash; slideshow:navigation:item END &ndash;&gt;-->
+
+<!--                &lt;!&ndash; slideshow:navigation:item START &ndash;&gt;-->
+<!--                <li class="navigation-item">-->
+<!--                    <span class="rotate-holder"></span>-->
+<!--                    <span class="background-holder"-->
+<!--                          style="background-image: url(../../static/portal/assets/img/img-4.jpg);"></span>-->
+<!--                </li>-->
+<!--                &lt;!&ndash; slideshow:navigation:item END &ndash;&gt;-->
+
+<!--                &lt;!&ndash; slideshow:navigation:item START &ndash;&gt;-->
+<!--                <li class="navigation-item">-->
+<!--                    <span class="rotate-holder"></span>-->
+<!--                    <span class="background-holder"-->
+<!--                          style="background-image: url(../../static/portal/assets/img/img-5.jpg);"></span>-->
+<!--                </li>-->
+<!--                &lt;!&ndash; slideshow:navigation:item END &ndash;&gt;-->
+
+<!--                &lt;!&ndash; slideshow:navigation:item START &ndash;&gt;-->
+<!--                <li class="navigation-item">-->
+<!--                    <span class="rotate-holder"></span>-->
+<!--                    <span class="background-holder"-->
+<!--                          style="background-image: url(../../static/portal/assets/img/img-6.jpg);"></span>-->
+<!--                </li>-->
+<!--                &lt;!&ndash; slideshow:navigation:item END &ndash;&gt;-->
+
+<!--                &lt;!&ndash; slideshow:navigation:item START &ndash;&gt;-->
+<!--                <li class="navigation-item">-->
+<!--                    <span class="rotate-holder"></span>-->
+<!--                    <span class="background-holder"-->
+<!--                          style="background-image: url(../../static/portal/assets/img/img-7.jpg);"></span>-->
+<!--                </li>-->
+<!--                &lt;!&ndash; slideshow:navigation:item END &ndash;&gt;-->
+
+<!--                &lt;!&ndash; slideshow:navigation:item START &ndash;&gt;-->
+<!--                <li class="navigation-item">-->
+<!--                    <span class="rotate-holder"></span>-->
+<!--                    <span class="background-holder"-->
+<!--                          style="background-image: url(../../static/portal/assets/img/img-8.jpg);"></span>-->
+<!--                </li>-->
+<!--                &lt;!&ndash; slideshow:navigation:item END &ndash;&gt;-->
+
+<!--                &lt;!&ndash; slideshow:navigation:item START &ndash;&gt;-->
+<!--                <li class="navigation-item">-->
+<!--                    <span class="rotate-holder"></span>-->
+<!--                    <span class="background-holder"-->
+<!--                          style="background-image: url(../../static/portal/assets/img/img-9.jpg);"></span>-->
+<!--                </li>-->
+<!--                &lt;!&ndash; slideshow:navigation:item END &ndash;&gt;-->
+
+<!--            </ul>-->
+<!--            &lt;!&ndash; slideshow:navigation END &ndash;&gt;-->
+
+
+<!--            &lt;!&ndash; slideshow:details START &ndash;&gt;-->
+<!--            <div class="detail">-->
+
+<!--                &lt;!&ndash; slideshow:details START &ndash;&gt;-->
+<!--                <div class="detail-item active">-->
+<!--                    <div class="headline">人生</div>-->
+<!--                    <div class="background"-->
+<!--                         style="background-image: url(../../static/portal/assets/img/img-1.jpg)"></div>-->
+<!--                </div>-->
+<!--                &lt;!&ndash; slideshow:details END &ndash;&gt;-->
+
+<!--                &lt;!&ndash; slideshow:details START &ndash;&gt;-->
+<!--                <div class="detail-item">-->
+<!--                    <div class="headline">岁月</div>-->
+<!--                    <div class="background"-->
+<!--                         style="background-image: url(../../static/portal/assets/img/img-2.jpg);"></div>-->
+<!--                </div>-->
+<!--                &lt;!&ndash; slideshow:details END &ndash;&gt;-->
+
+<!--                &lt;!&ndash; slideshow:details START &ndash;&gt;-->
+<!--                <div class="detail-item">-->
+<!--                    <div class="headline">历史</div>-->
+<!--                    <div class="background"-->
+<!--                         style="background-image: url(../../static/portal/assets/img/img-3.jpg);"></div>-->
+<!--                </div>-->
+<!--                &lt;!&ndash; slideshow:details END &ndash;&gt;-->
+
+<!--                &lt;!&ndash; slideshow:details START &ndash;&gt;-->
+<!--                <div class="detail-item">-->
+<!--                    <div class="headline">孤独</div>-->
+<!--                    <div class="background"-->
+<!--                         style="background-image: url(../../static/portal/assets/img/img-4.jpg);"></div>-->
+<!--                </div>-->
+<!--                &lt;!&ndash; slideshow:details END &ndash;&gt;-->
+
+<!--                &lt;!&ndash; slideshow:details START &ndash;&gt;-->
+<!--                <div class="detail-item">-->
+<!--                    <div class="headline">坚强</div>-->
+<!--                    <div class="background"-->
+<!--                         style="background-image: url(../../static/portal/assets/img/img-5.jpg);"></div>-->
+<!--                </div>-->
+<!--                &lt;!&ndash; slideshow:details END &ndash;&gt;-->
+
+<!--                &lt;!&ndash; slideshow:details START &ndash;&gt;-->
+<!--                <div class="detail-item">-->
+<!--                    <div class="headline">love</div>-->
+<!--                    <div class="background"-->
+<!--                         style="background-image: url(../../static/portal/assets/img/img-6.jpg);"></div>-->
+<!--                </div>-->
+<!--                &lt;!&ndash; slideshow:details END &ndash;&gt;-->
+
+<!--                &lt;!&ndash; slideshow:details START &ndash;&gt;-->
+<!--                <div class="detail-item">-->
+<!--                    <div class="headline">意志</div>-->
+<!--                    <div class="background"-->
+<!--                         style="background-image: url(../../static/portal/assets/img/img-7.jpg);"></div>-->
+<!--                </div>-->
+<!--                &lt;!&ndash; slideshow:details END &ndash;&gt;-->
+
+<!--                &lt;!&ndash; slideshow:details START &ndash;&gt;-->
+<!--                <div class="detail-item">-->
+<!--                    <div class="headline">路途</div>-->
+<!--                    <div class="background"-->
+<!--                         style="background-image: url(../../static/portal/assets/img/img-8.jpg);"></div>-->
+<!--                </div>-->
+<!--                &lt;!&ndash; slideshow:details END &ndash;&gt;-->
+
+<!--                &lt;!&ndash; slideshow:details START &ndash;&gt;-->
+<!--                <div class="detail-item">-->
+<!--                    <div class="headline">成长</div>-->
+<!--                    <div class="background"-->
+<!--                         style="background-image: url(../../static/portal/assets/img/img-9.jpg);"></div>-->
+<!--                </div>-->
+<!--                &lt;!&ndash; slideshow:details END &ndash;&gt;-->
+
+<!--            </div>-->
+<!--            &lt;!&ndash; slideshow:details END &ndash;&gt;-->
+
+<!--        </section>-->
+    </div>
+
+    <!--       <div class="container">-->
+    <!--           <div class="col-md-4 col-sm-6"  th:each="resource:${resources}">-->
+    <!--               <div class="portfolio-item">-->
+    <!--                   <div class="thumb">-->
+    <!--                       &lt;!&ndash;<a href="https://pan.baidu.com/s/15EfzOvBZao2XpbbDuligGg" data-lightbox="image-1">&ndash;&gt;-->
+    <!--                        <a th:href="${resource.url}" target="百度云资源" >-->
+
+    <!--                        &lt;!&ndash;<div th:text="${resource.url}"></div>&ndash;&gt;-->
+    <!--                            <div class="hover-effect">-->
+    <!--                            <div class="hover-content">-->
+    <!--                                <h1 th:text="${resource.name}" > </h1>-->
+    <!--                                <p th:text="${resource.title}"></p>-->
+    <!--                            </div>-->
+    <!--                        </div></a>-->
+    <!--                        <div class="image">-->
+    <!--                            &lt;!&ndash;<img src="../../static/portal/img/portfolio_item_4.png">&ndash;&gt;-->
+    <!--                            &lt;!&ndash;<img src="../../file/showImage?path=" th:src="../../file/showImage?path=">&ndash;&gt;-->
+    <!--                            <img th:src="@{../../file/showImage?path={path}(path= ${resource.fileName})}" >-->
+
+    <!--                        </div>-->
+    <!--                    </div>-->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--           &lt;!&ndash; <div class="col-md-4 col-sm-6">-->
+    <!--                <div class="portfolio-item">-->
+    <!--                    <div class="thumb">-->
+    <!--                        <a href="../../static/portal/img/big_portfolio_item_2.png" data-lightbox="image-1"><div class="hover-effect">-->
+    <!--                            <div class="hover-content">-->
+    <!--                                <h1>raclette <em>taxidermy</em></h1>-->
+    <!--                                <p>Awesome Subtittle Goes Here</p>-->
+    <!--                            </div>-->
+    <!--                        </div></a>-->
+    <!--                        <div class="image">-->
+    <!--                            <img src="../../static/portal/img/portfolio_item_2.png">-->
+    <!--                        </div>-->
+    <!--                    </div>-->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--            <div class="col-md-4 col-sm-6">-->
+    <!--                <div class="portfolio-item">-->
+    <!--                    <div class="thumb">-->
+    <!--                        <a href="../../static/portal/img/big_portfolio_item_3.png" data-lightbox="image-1"><div class="hover-effect">-->
+    <!--                            <div class="hover-content">-->
+    <!--                                <h1>humblebrag <em>brunch</em></h1>-->
+    <!--                                <p>Awesome Subtittle Goes Here</p>-->
+    <!--                            </div>-->
+    <!--                        </div></a>-->
+    <!--                        <div class="image">-->
+    <!--                            <img src="../../static/portal/img/portfolio_item_3.png">-->
+    <!--                        </div>-->
+    <!--                    </div>-->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--            <div class="col-md-4 col-sm-6">-->
+    <!--                <div class="portfolio-item">-->
+    <!--                    <div class="thumb">-->
+    <!--                        <a href="../../static/portal/img/big_portfolio_item_1.png" data-lightbox="image-1"><div class="hover-effect">-->
+    <!--                            <div class="hover-content">-->
+    <!--                                <h1>Succulents <em>chambray</em></h1>-->
+    <!--                                <p>Awesome Subtittle Goes Here</p>-->
+    <!--                            </div>-->
+    <!--                        </div></a>-->
+    <!--                        <div class="image">-->
+    <!--                            <img src="../../static/portal/img/portfolio_item_1.png">-->
+    <!--                        </div>-->
+    <!--                    </div>-->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--            <div class="col-md-4 col-sm-6">-->
+    <!--                <div class="portfolio-item">-->
+    <!--                    <div class="thumb">-->
+    <!--                        <a href="../../static/portal/img/big_portfolio_item_5.png" data-lightbox="image-1"><div class="hover-effect">-->
+    <!--                            <div class="hover-content">-->
+    <!--                                <h1>freegan <em>aesthetic</em></h1>-->
+    <!--                                <p>Awesome Subtittle Goes Here</p>-->
+    <!--                            </div>-->
+    <!--                        </div></a>-->
+    <!--                        <div class="image">-->
+    <!--                            <img src="../../static/portal/img/portfolio_item_5.png">-->
+    <!--                        </div>-->
+    <!--                    </div>-->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--            <div class="col-md-4 col-sm-6">-->
+    <!--                <div class="portfolio-item">-->
+    <!--                    <div class="thumb">-->
+    <!--                        <a href="../../static/portal/img/big_portfolio_item_6.png" data-lightbox="image-1"><div class="hover-effect">-->
+    <!--                            <div class="hover-content">-->
+    <!--                                <h1>taiyaki <em>vegan</em></h1>-->
+    <!--                                <p>Awesome Subtittle Goes Here</p>-->
+    <!--                            </div>-->
+    <!--                        </div></a>-->
+    <!--                        <div class="image">-->
+    <!--                            <img src="../../static/portal/img/portfolio_item_6.png">-->
+    <!--                        </div>-->
+    <!--                    </div>-->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--            <div class="col-md-4 col-sm-6">-->
+    <!--                <div class="portfolio-item">-->
+    <!--                    <div class="thumb">-->
+    <!--                        <a href="../../static/portal/img/big_portfolio_item_7.png" data-lightbox="image-1"><div class="hover-effect">-->
+    <!--                            <div class="hover-content">-->
+    <!--                                <h1>Thundercats <em>santo</em></h1>-->
+    <!--                                <p>Awesome Subtittle Goes Here</p>-->
+    <!--                            </div>-->
+    <!--                        </div></a>-->
+    <!--                        <div class="image">-->
+    <!--                            <img src="../../static/portal/img/portfolio_item_7.png">-->
+    <!--                        </div>-->
+    <!--                    </div>-->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--            <div class="col-md-4 col-sm-6">-->
+    <!--                <div class="portfolio-item">-->
+    <!--                    <div class="thumb">-->
+    <!--                        <a href="img/big_portfolio_item_8.png" data-lightbox="image-1"><div class="hover-effect">-->
+    <!--                            <div class="hover-content">-->
+    <!--                                <h1>wayfarers <em>yuccie</em></h1>-->
+    <!--                                <p>Awesome Subtittle Goes Here</p>-->
+    <!--                            </div>-->
+    <!--                        </div></a>-->
+    <!--                        <div class="image">-->
+    <!--                            <img src="../../static/portal/img/portfolio_item_8.png">-->
+    <!--                        </div>-->
+    <!--                    </div>-->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--            <div class="col-md-4 col-sm-6">-->
+    <!--                <div class="portfolio-item">-->
+    <!--                    <div class="thumb">-->
+    <!--                        <a href="../../static/portal/img/big_portfolio_item_9.png" data-lightbox="image-1"><div class="hover-effect">-->
+    <!--                            <div class="hover-content">-->
+    <!--                                <h1>disrupt <em>street</em></h1>-->
+    <!--                                <p>Awesome Subtittle Goes Here</p>-->
+    <!--                            </div>-->
+    <!--                        </div></a>-->
+    <!--                        <div class="image">-->
+    <!--                            <img src="../../static/portal/img/portfolio_item_9.png">-->
+    <!--                        </div>-->
+    <!--                    </div>-->
+    <!--                </div>-->
+    <!--            </div>&ndash;&gt;-->
+    <!--            <div class="col-md-12">-->
+    <!--                <div class="load-more-button">-->
+    <!--                    <a href="#">加载更多</a>-->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--        </div>-->
+</div>
+<footer id="footer-way"></footer>
+
+<!-- Modal button -->
+<div class="popup-icon">
+    <button id="modBtn" class="modal-btn"><img src="../../static/portal/img/contact-icon.png" alt=""></button>
+</div>
+
+<!-- Modal -->
+<div id="modal" class="modal">
+    <!-- Modal Content -->
+    <div class="modal-content">
+        <!-- Modal Header -->
+        <div class="modal-header">
+            <h3 class="header-title">您好<em>在路上</em></h3>
+            <div class="close-btn"><img src="../../static/portal/img/close_contact.png" alt=""></div>
+        </div>
+        <!-- Modal Body -->
+        <div class="modal-body">
+            <div class="col-md-6 col-md-offset-3">
+                <form id="contact" action="" method="post">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <fieldset>
+                                <input name="name" type="text" class="form-control" id="name" placeholder="Your name..."
+                                       required="">
+                            </fieldset>
+                        </div>
+                        <div class="col-md-12">
+                            <fieldset>
+                                <input name="email" type="email" class="form-control" id="email"
+                                       placeholder="Your email..." required="">
+                            </fieldset>
+                        </div>
+                        <div class="col-md-12">
+                            <fieldset>
+                                <textarea name="message" rows="6" class="form-control" id="message"
+                                          placeholder="Your message..." required=""></textarea>
+                            </fieldset>
+                        </div>
+                        <div class="col-md-12">
+                            <fieldset>
+                                <button type="submit" id="form-submit" class="btn">发送信息</button>
+                            </fieldset>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--目录-->
+<section class="overlay-menu"></section>
+
+</body>
+
+<div style="text-align:center; font:normal 14px/24px 'MicroSoft YaHei';"></div>
+    <script>
+        $("#footer-way").load("/public/footer.html")
+        $(".overlay-menu").load("/public/catalog.html")
+    </script>
+</body>
+</html>

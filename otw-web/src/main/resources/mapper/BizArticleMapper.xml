@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wzy.mapper.BizArticleMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.wzy.domain.BizArticle">
+        <id column="id" property="id" />
+        <result column="title" property="title" />
+        <result column="user_id" property="userId" />
+        <result column="cover_image" property="coverImage" />
+        <result column="qrcode_path" property="qrcodePath" />
+        <result column="is_markdown" property="isMarkdown" />
+        <result column="content" property="content" />
+        <result column="content_md" property="contentMd" />
+        <result column="top" property="top" />
+        <result column="type_id" property="typeId" />
+        <result column="status" property="status" />
+        <result column="recommended" property="recommended" />
+        <result column="original" property="original" />
+        <result column="description" property="description" />
+        <result column="keywords" property="keywords" />
+        <result column="comment" property="comment" />
+        <result column="create_time" property="createTime" />
+        <result column="update_time" property="updateTime" />
+        <result column="source_id" property="sourceId" />
+        <result column="views" property="views" />
+        <result column="tags" property="tags" />
+        <result column="nickname" property="nickname" />
+        <result column="avatar" property="avatar" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, title, user_id, cover_image, qrcode_path, is_markdown, content, content_md, top, type_id, status, recommended, original, description, keywords, comment, create_time, update_time, source_id, views, tags, nickname, avatar
+    </sql>
+    <update id="updateViews">
+        update biz_article set views = views + 1 where id = #{id}
+    </update>
+
+    <select id="queryCondition" resultType="com.wzy.domain.BizArticle">
+        SELECT
+        cle.id,
+        cle.title,
+        cle.create_time,
+        cle.views,
+        cle.tags,
+        cle.nickname,
+        cle.avatar,
+        cle.description,
+        pe.NAME AS type
+        FROM
+        biz_article cle
+
+        LEFT JOIN
+        biz_type pe
+        ON cle.type_id = pe.id
+        inner join (SELECT le.id from biz_article le where
+        1=1
+        <include refid="conditon"></include>
+        ORDER BY le.create_time desc
+        LIMIT #{offset},#{size} ) as le1
+        on cle.id = le1.id;
+    </select>
+    <select id="queryRecentSixMonthTotal" resultType="java.lang.Long">
+            SELECT
+            count( * )
+            FROM
+            `biz_article`
+            WHERE 1=1
+            <if test="startDate!=null and startDate!=''">
+                AND  DATE_FORMAT( create_time, '%Y-%m-%d' ) >= DATE_FORMAT(#{startDate},'%Y-%m-%d')
+            </if>
+            <if test="endDate!=null and endDate!=''">
+                  AND DATE_FORMAT( create_time, '%Y-%m-%d' )  &lt;= DATE_FORMAT(#{endDate},'%Y-%m-%d')
+            </if>
+
+
+    </select>
+    <select id="queryAritcleGroupByType" resultType="java.util.Map">
+
+        SELECT
+            type.NAME AS name,
+            le.type_id AS typeId,
+            count( * ) AS count
+        FROM
+            biz_article le
+            LEFT JOIN biz_type type ON le.type_id = type.id
+        GROUP BY
+            le.type_id
+
+    </select>
+    <select id="querySingleBizArtcle" resultType="com.wzy.domain.BizArticle">
+        SELECT
+        le.id,le.title,le.create_time,le.views,le.tags,le.nickname,le.avatar,le.content,
+        pe.NAME AS type
+        FROM
+        biz_article le
+        LEFT JOIN biz_type pe ON le.type_id = pe.id
+        where 1=1
+        <include refid="conditon"></include>
+    </select>
+
+    <select id="queryTotalByCondition" resultType="java.lang.Long">
+            SELECT
+           count( *)
+        FROM
+            biz_article le
+        LEFT JOIN
+            biz_type pe
+         ON le.type_id = pe.id
+        where
+        1=1
+        <include refid="conditon"></include>
+    </select>
+    <select id="querySingleBizArtcleIgnoreContent" resultType="com.wzy.domain.BizArticle">
+        SELECT
+        le.id,le.title,le.create_time,le.views,le.tags,le.nickname,le.avatar,
+        pe.NAME AS type
+        FROM
+        biz_article le
+        LEFT JOIN biz_type pe ON le.type_id = pe.id
+        where 1=1
+        <include refid="conditon"></include>
+    </select>
+    <sql id="conditon">
+        <if test="id!=null and id!=''">
+            and le.id = #{id}
+        </if>
+        <if test="typeId!=null and typeId!=''">
+            and le.type_id = #{typeId}
+        </if>
+        <if test="startDate!=null and startDate!=''">
+            AND  DATE_FORMAT( le.create_time, '%Y-%m-%d' ) >= DATE_FORMAT(#{startDate},'%Y-%m-%d')
+        </if>
+        <if test="endDate!=null and endDate!=''">
+            AND DATE_FORMAT( le.create_time, '%Y-%m-%d' )  &lt;= DATE_FORMAT(#{endDate},'%Y-%m-%d')
+        </if>
+    </sql>
+</mapper>

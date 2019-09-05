@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wzy.mapper.BizFileMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.wzy.domain.BizFile">
+        <id column="id" property="id" />
+        <result column="user_id" property="userId" />
+        <result column="storage_type" property="storageType" />
+        <result column="original_file_name" property="originalFileName" />
+        <result column="size" property="size" />
+        <result column="suffix" property="suffix" />
+        <result column="width" property="width" />
+        <result column="height" property="height" />
+        <result column="file_path" property="filePath" />
+        <result column="full_file_path" property="fullFilePath" />
+        <result column="file_hash" property="fileHash" />
+        <result column="upload_type" property="uploadType" />
+        <result column="upload_start_time" property="uploadStartTime" />
+        <result column="upload_end_time" property="uploadEndTime" />
+        <result column="create_time" property="createTime" />
+        <result column="update_time" property="updateTime" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, user_id, storage_type, original_file_name, size, suffix, width, height, file_path, full_file_path, file_hash, upload_type, upload_start_time, upload_end_time, create_time, update_time
+    </sql>
+
+</mapper>

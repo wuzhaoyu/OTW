@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wzy.mapper.LogMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.wzy.domain.Log">
+        <id column="id" property="id" />
+        <result column="create_time" property="createTime" />
+        <result column="description" property="description" />
+        <result column="exception_detail" property="exceptionDetail" />
+        <result column="log_type" property="logType" />
+        <result column="method" property="method" />
+        <result column="params" property="params" />
+        <result column="request_ip" property="requestIp" />
+        <result column="time" property="time" />
+        <result column="username" property="username" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, create_time, description, exception_detail, log_type, method, params, request_ip, time, username
+    </sql>
+    <select id="findIp" resultType="java.lang.Long">
+        select count(*) FROM (select request_ip FROM log where create_time between #{date1} and #{date1} GROUP BY request_ip) as s
+    </select>
+    <select id="findExceptionById" resultType="java.lang.String">
+        select exception_detail FROM log where id = #{id}
+    </select>
+
+</mapper>

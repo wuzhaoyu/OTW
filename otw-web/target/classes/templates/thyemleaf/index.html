@@ -1,0 +1,28 @@
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+    <title>用户数据</title>
+</head>
+<body>
+<span th:text="Hello"></span>
+<span th:if="${sex}=='男'">
+    性别：男
+</span>
+<span th:if="${sex}=='女'">
+    性别：女
+</span>
+<table border="1" width="50%" align="center">
+    <tr>
+        <th>ID</th>
+        <th>NAME</th>
+    </tr>
+    <tr th:each="user:${userList}">
+        <td th:text="${user.id}"></td>
+        <td th:text="${user.name}"></td>
+    </tr>
+</table>
+<a th:href="@{https://www.baidu.com}">百度</a>
+<a th:href="@{/userFtl}">项目路径</a>
+<a th:href="@{~}">服务器路径</a>
+</body>
+</html>

@@ -1,0 +1,4 @@
+1.springboot要求模板形式的视图层技术的文件必须要放在src/main/resources
+目录下必须要命名为templates
+2.freemarker,thymeleaf等模板
+3.templates 是安全的不允许通过url直接访问

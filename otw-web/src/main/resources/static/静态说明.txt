@@ -1,0 +1,2 @@
+1.springboot中的静态资源在classpath目录下，"resource/static",必须指定static
+2.springboot中的静态资源在servletContext目录下,"webapp",必须命名为webapp

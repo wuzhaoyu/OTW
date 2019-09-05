@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wzy.mapper.HistoryFsMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.wzy.domain.HistoryFs">
+        <id column="id" property="id" />
+        <result column="code" property="code" />
+        <result column="cjj" property="cjj" />
+        <result column="jgbd" property="jgbd" />
+        <result column="cjl" property="cjl" />
+        <result column="cje" property="cje" />
+        <result column="xz" property="xz" />
+        <result column="date_time" property="dateTime" />
+        <result column="time" property="time" />
+        <result column="codetime" property="codetime" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, code, cjj, jgbd, cjl, cje, xz, date_time, time, codetime
+    </sql>
+    <select id="queryGroupByCode" resultType="java.util.Map">
+        	SELECT min(codetime) as mindate,max(codetime) as maxdate,code from history_fs  GROUP BY code,date_time
+    </select>
+    <select id="queryGroupByMinAndMax" resultType="com.wzy.domain.HistoryFsDto">
+        SELECT
+        max(cjj) as highPrice, min(cjj) as lowPrice
+        FROM
+        `history_fs`
+        WHERE 1=1
+        <if test="startDate!=null and startDate!=''">
+            AND  DATE_FORMAT( codetime,'%Y-%m-%d  %H:%i:%S' ) >= DATE_FORMAT(#{startDate},'%Y-%m-%d  %H:%i:%S')
+        </if>
+        <if test="endDate!=null and endDate!=''">
+            AND DATE_FORMAT( codetime,'%Y-%m-%d  %H:%i:%S' )  &lt;= DATE_FORMAT(#{endDate},'%Y-%m-%d  %H:%i:%S')
+        </if>
+        and code = #{code} ORDER BY codetime asc
+
+    </select>
+    <select id="queryGroupByOther" resultType="com.wzy.domain.HistoryFs">
+        SELECT
+        *
+        FROM
+        `history_fs`
+        WHERE 1=1
+        <if test="startDate!=null and startDate!=''">
+            AND  DATE_FORMAT( codetime,'%Y-%m-%d  %H:%i:%S' ) >= DATE_FORMAT(#{startDate},'%Y-%m-%d  %H:%i:%S')
+        </if>
+        <if test="endDate!=null and endDate!=''">
+            AND DATE_FORMAT( codetime,'%Y-%m-%d  %H:%i:%S' )  &lt;= DATE_FORMAT(#{endDate},'%Y-%m-%d  %H:%i:%S')
+        </if>
+        and code = #{code} ORDER BY codetime asc
+
+    </select>
+
+</mapper>

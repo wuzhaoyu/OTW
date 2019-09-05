@@ -1,0 +1,6 @@
+1.数据库时区问题
+time_zone说明mysql使用system的时区，system_time_zone说明system使用CST时区(美国时间)，中国时间晚8小时
+一种是在jdbc连接的url后面加上serverTimezone=UTC或GMT即可，如果指定使用gmt+8时区，需要写成GMT%2B8，否则可能报解析为空的错误
+二种 数据库sql show variables like '%time_zone%'
+           set global time_zone='+8:00';
+

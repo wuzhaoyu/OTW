@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="otwcommon" />
+        <module name="otwtools" />
+        <module name="otwweb" />
+        <module name="otwlogging" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="otwadmin" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="otwadmin" options="-parameters" />
+      <module name="otwcommon" options="-parameters" />
+      <module name="otwlogging" options="-parameters" />
+      <module name="otwtools" options="-parameters" />
+      <module name="otwweb" options="-parameters" />
+    </option>
+  </component>
+</project>

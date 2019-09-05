@@ -1,0 +1,65 @@
+# 忽略的接口key
+permission:
+  ignore: user.register,login,index,register,user.hasusername, user.register,
+    enterprise.getnumber, enterprise.getbyprovince, home, enterprise.querybycondition,user.getcode,
+    public.ignore
+spring:
+  profiles:
+    active: dev
+  thymeleaf:
+    cache: false
+    suffix: .html
+    encoding: UTF-8
+  servlet:
+    multipart:
+      max-file-size: 20MB
+  mvc:
+     static-path-pattern: /static/** ,/templates/**,/public/**
+  output:
+    ansi:
+      enabled: ALWAYS
+  jackson:
+    date-format: 'yyyy-MM-dd'
+mybatis-plus:
+  mapper-locations: classpath*:/mapper/**Mapper.xml
+  #实体扫描，多个package用逗号或者分号分隔
+  typeAliasesPackage: com.wzy.domain
+  global-config:
+      #主键类型  0:"数据库ID自增", 1:"用户输入ID",2:"全局唯一ID (数字类型唯一ID)", 3:"全局唯一ID UUID";
+      id-type: 2
+      #字段策略 0:"忽略判断",1:"非 NULL 判断"),2:"非空判断"
+      field-strategy: 2
+      #驼峰下划线转换
+      db-column-underline: true
+      #刷新mapper 调试神器
+      refresh-mapper: true
+      #数据库大写下划线转换
+      #capital-mode: true
+      #序列接口实现类配置
+      #key-generator: com.baomidou.springboot.xxx
+      #逻辑删除配置（下面3个配置）
+      logic-delete-value: 0
+      logic-not-delete-value: 1
+  configuration:
+      map-underscore-to-camel-case: true
+      cache-enabled: false
+      log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+logging:
+  #配置日志文件路径
+  level:
+    com.wzy: info #不同目录下的日志可配置不同级别
+    com.wzy.controller: info
+    java.sql: info
+    org.springframework.web: trace
+  path: ./logs
+#  config: classpath:log4j2.xml
+
+management:
+  health:
+    db:
+      enabled: true
+    defaults:
+      enabled: true
+defind:
+  exitkey: qz
