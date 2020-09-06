@@ -32,7 +32,7 @@ public class SolrController extends AbstractController {
 
 
     private static final Logger log = LoggerFactory.getLogger(SolrController.class);
-    @Autowired
+
     private SolrClient client;
 
     /**

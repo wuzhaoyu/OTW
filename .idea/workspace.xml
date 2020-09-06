@@ -1,19 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74e43c74-3e78-46bb-8b86-bd369f834751" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/otw-common/target/" />
-    <ignored path="$PROJECT_DIR$/otw-logging/target/" />
-    <ignored path="$PROJECT_DIR$/otw-tools/target/" />
-    <ignored path="$PROJECT_DIR$/otw-web/target/" />
-    <ignored path="$PROJECT_DIR$/otw-admin/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="74e43c74-3e78-46bb-8b86-bd369f834751" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/otw-common/src/main/java/com/wzy/exception/handle/ApiError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/otw-common/src/main/java/com/wzy/exception/handle/GlobalExceptionHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/otw-web/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/otw-web/src/test/com/wzy/LocalDateTimeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/spring.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/otw-common/target/classes/META-INF/otwcommon.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/otw-common/target/classes/com/wzy/utils/ThrowableUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/otw-common/target/classes/com/wzy/utils/ThrowableUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/otw-web/src/main/java/com/wzy/controller/system/SolrController.java" beforeDir="false" afterPath="$PROJECT_DIR$/otw-web/src/main/java/com/wzy/controller/system/SolrController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/otw-web/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/otw-web/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/otw-web/src/main/resources/application-produce.yml" beforeDir="false" afterPath="$PROJECT_DIR$/otw-web/src/main/resources/application-produce.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/otw-web/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/otw-web/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/otw-web/src/main/resources/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/otw-web/src/main/resources/templates/portal/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/otw-web/src/main/resources/templates/portal/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/otw-web/target/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/otw-web/target/classes/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/otw-web/target/classes/application-produce.yml" beforeDir="false" afterPath="$PROJECT_DIR$/otw-web/target/classes/application-produce.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/otw-web/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/otw-web/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/otw-web/target/classes/com/wzy/common/HttpClientUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/otw-web/target/classes/com/wzy/common/HttpClientUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/otw-web/target/classes/com/wzy/controller/system/FileController.class" beforeDir="false" afterPath="$PROJECT_DIR$/otw-web/target/classes/com/wzy/controller/system/FileController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/otw-web/target/classes/com/wzy/controller/system/SolrController.class" beforeDir="false" afterPath="$PROJECT_DIR$/otw-web/target/classes/com/wzy/controller/system/SolrController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/otw-web/target/classes/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/otw-web/target/classes/templates/portal/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/otw-web/target/classes/templates/portal/about.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -32,112 +57,6 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/otw-logging/src/main/java/com/wzy/aspect/LogAspect.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1320">
-              <caret line="60" column="7" selection-start-line="60" selection-start-column="7" selection-end-line="60" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/otw-web/src/main/java/com/wzy/domain/BizArticle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1584">
-              <caret line="84" column="7" selection-start-line="84" selection-start-column="7" selection-end-line="84" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/otw-common/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/otw-web/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="836">
-              <caret line="38" column="34" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/otw-common/src/main/java/com/wzy/aop/Limit.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/otw-common/src/main/java/com/wzy/aspect/LimitAspect.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="71" column="5" lean-forward="true" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/otw-web/src/main/java/com/wzy/controller/portal/BizArticleController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2024">
-              <caret line="115" column="18" selection-start-line="115" selection-start-column="18" selection-end-line="115" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4796">
-              <caret line="218" selection-start-line="218" selection-end-line="218" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/otw-common/src/main/java/com/wzy/utils/RequestHolder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="22" selection-start-column="22" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/otw-logging/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -149,270 +68,40 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>com.com</find>
-      <find>aspe</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>com</replace>
-    </replaceStrings>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/otw-admin/pom.xml" />
-        <option value="$PROJECT_DIR$/otw-web/src/main/java/wzy/domain/SysLog.java" />
-        <option value="$PROJECT_DIR$/otw-web/src/main/resources/wzy/domain/SysLog.java" />
-        <option value="$PROJECT_DIR$/otw-web/src/main/java/wzy/controller/transmint/PortalController.java" />
-        <option value="$PROJECT_DIR$/otw-web/src/main/java/com/wzy/controller/transmint/PortalController.java" />
-        <option value="$PROJECT_DIR$/otw-web/src/main/java/com/wzy/SystemApplication.java" />
-        <option value="$PROJECT_DIR$/otw-web/src/main/resources/mapper/BizArticleLookMapper.xml" />
-        <option value="$PROJECT_DIR$/otw-web/src/main/resources/mapper/BizArticleLoveMapper.xml" />
-        <option value="$PROJECT_DIR$/otw-logging/src/main/java/com/wzy/aop/log/Log.java" />
-        <option value="$PROJECT_DIR$/otw-logging/src/main/java/com/wzy/repository/LogRepository.java" />
-        <option value="$PROJECT_DIR$/otw-logging/src/main/java/com/wzy/mapper/LogRepository.java" />
-        <option value="$PROJECT_DIR$/otw-logging/src/main/java/com/wzy/rest/LogController.java" />
-        <option value="$PROJECT_DIR$/otw-logging/src/main/java/com/wzy/mapper/LogMapper.java" />
-        <option value="$PROJECT_DIR$/otw-logging/src/main/java/com/wzy/service/LogService.java" />
-        <option value="$PROJECT_DIR$/otw-logging/src/main/resources/LogMapper.xml" />
-        <option value="$PROJECT_DIR$/otw-common/src/main/java/utils/BeanHelp.java" />
-        <option value="$PROJECT_DIR$/otw-web/src/main/resources/static/portal/js/common/commonJS.js" />
-        <option value="$PROJECT_DIR$/otw-logging/src/main/java/com/wzy/domain/Log.java" />
-        <option value="$PROJECT_DIR$/otw-logging/src/main/java/com/wzy/service/impl/LogServiceImpl.java" />
-        <option value="$PROJECT_DIR$/otw-common/src/main/java/utils/RequestHolder.java" />
-        <option value="$PROJECT_DIR$/otw-common/src/main/java/aspect/LimitType.java" />
-        <option value="$PROJECT_DIR$/otw-common/src/main/java/aop/Limit.java" />
-        <option value="$PROJECT_DIR$/otw-common/src/main/java/aspect/LimitAspect.java" />
-        <option value="$PROJECT_DIR$/otw-common/pom.xml" />
-        <option value="$PROJECT_DIR$/otw-tools/pom.xml" />
-        <option value="$PROJECT_DIR$/otw-logging/pom.xml" />
-        <option value="$PROJECT_DIR$/otw-web/src/main/java/com/wzy/domain/BizArticle.java" />
-        <option value="$PROJECT_DIR$/otw-logging/src/main/java/com/wzy/aspect/LogAspect.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/otw-common/src/main/java/com/wzy/aspect/LimitAspect.java" />
-        <option value="$PROJECT_DIR$/otw-web/pom.xml" />
-        <option value="$PROJECT_DIR$/otw-web/src/main/java/com/wzy/controller/portal/BizArticleController.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1939" />
-    <option name="height" value="1049" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="OTW" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OTW" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OTW" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OTW" type="462c0819:PsiDirectoryNode" />
-              <item name="otw-common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OTW" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OTW" type="462c0819:PsiDirectoryNode" />
-              <item name="otw-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OTW" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OTW" type="462c0819:PsiDirectoryNode" />
-              <item name="otw-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OTW" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OTW" type="462c0819:PsiDirectoryNode" />
-              <item name="otw-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OTW" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OTW" type="462c0819:PsiDirectoryNode" />
-              <item name="otw-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="wzy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OTW" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OTW" type="462c0819:PsiDirectoryNode" />
-              <item name="otw-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="wzy" type="462c0819:PsiDirectoryNode" />
-              <item name="aop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OTW" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OTW" type="462c0819:PsiDirectoryNode" />
-              <item name="otw-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="wzy" type="462c0819:PsiDirectoryNode" />
-              <item name="aspect" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OTW" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OTW" type="462c0819:PsiDirectoryNode" />
-              <item name="otw-logging" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OTW" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OTW" type="462c0819:PsiDirectoryNode" />
-              <item name="otw-logging" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OTW" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OTW" type="462c0819:PsiDirectoryNode" />
-              <item name="otw-logging" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OTW" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OTW" type="462c0819:PsiDirectoryNode" />
-              <item name="otw-logging" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OTW" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OTW" type="462c0819:PsiDirectoryNode" />
-              <item name="otw-logging" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="wzy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OTW" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OTW" type="462c0819:PsiDirectoryNode" />
-              <item name="otw-logging" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="wzy" type="462c0819:PsiDirectoryNode" />
-              <item name="aspect" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OTW" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OTW" type="462c0819:PsiDirectoryNode" />
-              <item name="otw-tools" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OTW" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OTW" type="462c0819:PsiDirectoryNode" />
-              <item name="otw-web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OTW" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OTW" type="462c0819:PsiDirectoryNode" />
-              <item name="otw-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OTW" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OTW" type="462c0819:PsiDirectoryNode" />
-              <item name="otw-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OTW" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OTW" type="462c0819:PsiDirectoryNode" />
-              <item name="otw-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OTW" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OTW" type="462c0819:PsiDirectoryNode" />
-              <item name="otw-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="wzy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OTW" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OTW" type="462c0819:PsiDirectoryNode" />
-              <item name="otw-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="wzy" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OTW" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OTW" type="462c0819:PsiDirectoryNode" />
-              <item name="otw-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="wzy" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="portal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OTW" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OTW" type="462c0819:PsiDirectoryNode" />
-              <item name="otw-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="wzy" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OTW" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectId" id="1eUNGAYxNztLCth53oTfVgjBQSN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/otw-common/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\OTW\otw-web\src" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.wzy.rest" />
       <recent name="com.wzy.service.impl" />
@@ -421,27 +110,30 @@
       <recent name="com.wzy.repository" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\OTW\otw-web\src\main\resources" />
+      <recent name="G:\OTW" />
       <recent name="G:\OTW\otw-common\src\main\java" />
       <recent name="G:\OTW\otw-logging\src\main\resources" />
-      <recent name="G:\OTW\otw-web\src\main\resources" />
       <recent name="G:\OTW\otw-web\src\main\java" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.SystemApplication (1)">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LocalDateTimeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wzy.LocalDateTimeTest" />
+      <module name="otwweb" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wzy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -459,8 +151,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SystemApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="otw-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wzy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wzy.SystemApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="otwweb" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wzy.SystemApplication" />
+      <option name="ACTIVE_PROFILES" value="dev" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="otw-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wzy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.wzy.SystemApplication" />
       <option name="ACTIVE_PROFILES" value="dev" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -486,6 +206,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.SystemApplication (1)" />
+        <item itemvalue="Spring Boot.SystemApplication" />
+        <item itemvalue="Application.LocalDateTimeTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -502,12 +244,33 @@
       <workItem from="1567079503539" duration="2141000" />
       <workItem from="1567420956322" duration="2632000" />
       <workItem from="1567595940629" duration="5284000" />
-      <workItem from="1567682875059" duration="343000" />
+      <workItem from="1567682875059" duration="5599000" />
+      <workItem from="1568027163817" duration="4817000" />
+      <workItem from="1568358071842" duration="4214000" />
+      <workItem from="1568875934721" duration="261000" />
+      <workItem from="1568876266647" duration="240000" />
+      <workItem from="1569328278056" duration="2311000" />
+      <workItem from="1574751239979" duration="63000" />
+      <workItem from="1594372114404" duration="472000" />
+      <workItem from="1595506163335" duration="14000" />
+      <workItem from="1599380054684" duration="1248000" />
     </task>
+    <task id="LOCAL-00001" summary="修改aop依赖">
+      <created>1567684514938</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1567684514938</updated>
+    </task>
+    <task id="LOCAL-00002" summary="修改aop依赖">
+      <created>1567684592919</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1567684592919</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20224000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -518,50 +281,83 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26407507" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info id="Designer" order="6" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22553192" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.6539007" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.6241135" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="MyBatis Sql Log" order="8" />
-      <window_info active="true" anchor="bottom" id="Spring" order="9" visible="true" weight="0.13333334" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32907802" />
-      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.40567377" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="13" />
-      <window_info anchor="bottom" id="Tail" order="14" />
-      <window_info anchor="bottom" id="Java Enterprise" order="15" />
-      <window_info anchor="bottom" id="Database Changes" order="16" />
-      <window_info anchor="bottom" id="Version Control" order="17" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Bean Validation" order="9" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="修改aop依赖" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改aop依赖" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2334" y="174" width="1207" height="692" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599380308929">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="174" width="1207" height="692" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594372350244" />
+    <state x="2334" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599380308929" />
+    <state width="1877" height="218" key="GridCell.Tab.0.bottom" timestamp="1599381475005">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="218" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599381475005" />
+    <state width="1877" height="131" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599380448564" />
+    <state width="1877" height="218" key="GridCell.Tab.0.center" timestamp="1599381475005">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="218" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599381475005" />
+    <state width="1877" height="131" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599380448564" />
+    <state width="1877" height="218" key="GridCell.Tab.0.left" timestamp="1599381475005">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="218" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599381475005" />
+    <state width="1877" height="131" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599380448564" />
+    <state width="1877" height="218" key="GridCell.Tab.0.right" timestamp="1599381475005">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="218" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599381475005" />
+    <state width="1877" height="131" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599380448564" />
+    <state width="1877" height="218" key="GridCell.Tab.1.bottom" timestamp="1599381475007">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="218" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599381475007" />
+    <state width="1877" height="131" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599380448082" />
+    <state width="1877" height="218" key="GridCell.Tab.1.center" timestamp="1599381475006">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="218" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599381475006" />
+    <state width="1877" height="131" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599380448082" />
+    <state width="1877" height="218" key="GridCell.Tab.1.left" timestamp="1599381475005">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="218" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599381475005" />
+    <state width="1877" height="131" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599380448082" />
+    <state width="1877" height="218" key="GridCell.Tab.1.right" timestamp="1599381475007">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="218" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599381475007" />
+    <state width="1877" height="131" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599380448082" />
+    <state width="1877" height="218" key="GridCell.Tab.2.bottom" timestamp="1599381475008">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="218" key="GridCell.Tab.2.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599381475008" />
+    <state width="1877" height="131" key="GridCell.Tab.2.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599380448084" />
+    <state width="1877" height="218" key="GridCell.Tab.2.center" timestamp="1599381475007">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="218" key="GridCell.Tab.2.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599381475007" />
+    <state width="1877" height="131" key="GridCell.Tab.2.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599380448084" />
+    <state width="1877" height="218" key="GridCell.Tab.2.left" timestamp="1599381475007">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="218" key="GridCell.Tab.2.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599381475007" />
+    <state width="1877" height="131" key="GridCell.Tab.2.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599380448083" />
+    <state width="1877" height="218" key="GridCell.Tab.2.right" timestamp="1599381475008">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="218" key="GridCell.Tab.2.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599381475008" />
+    <state width="1877" height="131" key="GridCell.Tab.2.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599380448084" />
+    <state x="2550" y="254" width="659" height="532" key="find.popup" timestamp="1599380760183">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2550" y="254" width="659" height="532" key="find.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599380760183" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
@@ -576,324 +372,6 @@
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
     </expressions>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/otw-web/src/main/resources/wzy/domain/SysLog.java" />
-    <entry file="file://$PROJECT_DIR$/otw-web/src/main/resources/wzy/domain/BizArticle.java" />
-    <entry file="file://$PROJECT_DIR$/otw-web/src/main/resources/mapper/FileMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otw-web/src/main/java/com/wzy/controller/transmint/PortalController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-264">
-          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-          <folding>
-            <element signature="e#2888#2900#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otw-web/src/main/java/com/wzy/service/impl/BizArticleServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otw-web/src/main/java/com/wzy/mapper/BizArticleMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otw-web/src/main/resources/mapper/BizArticleLoveMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otw-web/src/main/resources/mapper/BizArticleLookMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otw-web/src/main/java/com/wzy/SystemApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otw-logging/src/main/java/com.java" />
-    <entry file="file://$PROJECT_DIR$/otw-logging/src/main/java/wzy.java" />
-    <entry file="file://$PROJECT_DIR$/otw-web/src/main/java/com/wzy/mapper/BizArticleLookMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="13" column="73" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otw-web/src/main/resources/mapper/BizCommentMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otw-web/src/main/resources/mapper/SysNoticeMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otw-web/src/main/resources/mapper/BizFileMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otw-logging/src/main/java/com/wzy/rest/LogController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otw-web/src/main/java/com/wzy/controller/FileUpload/uploadContrller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otw-common/src/main/java/com/wzy/utils/NullHelp.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otw-common/src/main/java/com/wzy/utils/FileUtil.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otw-common/src/main/java/com/wzy/utils/ThrowableUtil.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otw-common/src/main/java/com/wzy/utils/SpringContextHolder.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otw-common/src/main/java/utils/ValidationUtil.java" />
-    <entry file="file://$PROJECT_DIR$/otw-common/src/main/java/com/wzy/utils/ElAdminConstant.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otw-common/src/main/java/com/wzy/utils/EncryptUtils.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otw-common/src/main/java/com/wzy/utils/BeanHelp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="206" selection-start-line="206" selection-end-line="206" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OTW.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otw-common/src/main/java/utils/SecurityUtils.java" />
-    <entry file="file://$PROJECT_DIR$/otw-web/src/main/resources/static/portal/js/common/commonJS.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="86" lean-forward="true" selection-start-line="13" selection-start-column="86" selection-end-line="13" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otw-web/src/main/resources/static/portal/js/common/commonCss.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otw-logging/src/main/java/com/wzy/service/LogService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-support/2.3/mybatis-plus-support-2.3.jar!/com/baomidou/mybatisplus/mapper/BaseMapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otw-logging/src/main/java/com/wzy/mapper/LogMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otw-logging/src/main/resources/LogMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="56" lean-forward="true" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otw-logging/src/main/java/com/wzy/service/impl/LogServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="67" column="35" selection-start-line="67" selection-start-column="35" selection-end-line="67" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otw-logging/src/main/java/com/wzy/domain/Log.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otw-common/src/main/java/com/wzy/utils/StringUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2640">
-          <caret line="122" column="61" selection-start-line="122" selection-start-column="54" selection-end-line="122" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otw-web/src/main/java/com/wzy/WholeExceptionHandle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otw-common/src/main/java/com/wzy/aspect/LimitType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otw-logging/src/main/java/com/wzy/aop/log/Log.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otw-web/src/main/java/com/wzy/common/DateTransUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="819" column="15" selection-start-line="819" selection-start-column="15" selection-end-line="819" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otw-tools/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otw-logging/src/main/java/com/wzy/aspect/LogAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="60" column="7" selection-start-line="60" selection-start-column="7" selection-end-line="60" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otw-web/src/main/java/com/wzy/domain/BizArticle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1584">
-          <caret line="84" column="7" selection-start-line="84" selection-start-column="7" selection-end-line="84" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otw-common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otw-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="38" column="34" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otw-common/src/main/java/com/wzy/aop/Limit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otw-web/src/main/java/com/wzy/controller/portal/BizArticleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2024">
-          <caret line="115" column="18" selection-start-line="115" selection-start-column="18" selection-end-line="115" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4796">
-          <caret line="218" selection-start-line="218" selection-end-line="218" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otw-common/src/main/java/com/wzy/utils/RequestHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otw-logging/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otw-common/src/main/java/com/wzy/aspect/LimitAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="71" column="5" lean-forward="true" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>
@@ -951,7 +429,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

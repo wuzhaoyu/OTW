@@ -6,10 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="otwcommon" />
+        <module name="otw-logging" />
         <module name="otwtools" />
+        <module name="otw-common" />
         <module name="otwweb" />
+        <module name="otw-web" />
         <module name="otwlogging" />
+        <module name="otw-tools" />
+        <module name="otwcommon" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -18,6 +22,10 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="otw-common" options="-parameters" />
+      <module name="otw-logging" options="-parameters" />
+      <module name="otw-tools" options="-parameters" />
+      <module name="otw-web" options="-parameters" />
       <module name="otwadmin" options="-parameters" />
       <module name="otwcommon" options="-parameters" />
       <module name="otwlogging" options="-parameters" />

@@ -1,108 +1,108 @@
-2019-09-04 20:32:07.414  INFO 22636 --- [main] com.wzy.SystemApplication                : Starting SystemApplication on sega-wuzhaoyu with PID 22636 (G:\OTW\otw-web\target\classes started by 19666 in G:\OTW)
-2019-09-04 20:32:07.443  INFO 22636 --- [main] com.wzy.SystemApplication                : The following profiles are active: dev
-2019-09-04 20:32:07.560  INFO 22636 --- [main] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2019-09-04 20:32:08.508  WARN 22636 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.wzy.mapper.*]' package. Please check your configuration.
-2019-09-04 20:32:08.961  INFO 22636 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2019-09-04 20:32:08.971  INFO 22636 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-09-04 20:32:09.050  INFO 22636 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58ms. Found 0 repository interfaces.
-2019-09-04 20:32:09.058  INFO 22636 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2019-09-04 20:32:09.058  INFO 22636 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-09-04 20:32:09.083  INFO 22636 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
-2019-09-04 20:32:09.743  INFO 22636 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$acddba7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-09-04 20:32:10.527  INFO 22636 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
-2019-09-04 20:32:10.552  INFO 22636 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-09-04 20:32:10.553  INFO 22636 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
-2019-09-04 20:32:10.560  INFO 22636 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files (x86)\Java\jdk1.8.0_144\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;F:\xshell\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\Program Files\Java\jdk1.8.0_161\jre\bin;D:\gradle\gradle-4.3\bin;D:\svn\bin;D:\node\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Microsoft VS Code\Microsoft VS Code\bin;D:\Git\bin;D:\Anaconda\Scripts;D:\Anaconda;D:\Anaconda\Library\bin;C:\Users\19666\AppData\Local\Microsoft\WindowsApps;C:\Users\19666\AppData\Roaming\npm;;.]
-2019-09-04 20:32:10.965  INFO 22636 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2019-09-04 20:32:10.971  INFO 22636 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-09-04 20:32:10.972 DEBUG 22636 --- [main] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
-2019-09-04 20:32:10.972  INFO 22636 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3411 ms
-2019-09-04 20:32:13.266  INFO 22636 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2019-09-04 20:32:13.267  WARN 22636 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
-2019-09-04 20:32:13.423  INFO 22636 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2019-09-04 20:32:14.942 TRACE 22636 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/**/favicon.ico] onto ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/], class path resource []]
-2019-09-04 20:32:14.943 DEBUG 22636 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
-2019-09-04 20:32:15.335  INFO 22636 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-09-04 20:32:15.368 DEBUG 22636 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2019-09-04 20:32:15.439 TRACE 22636 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+2019-09-24 20:32:46.922  INFO 24944 --- [main] com.wzy.SystemApplication                : Starting SystemApplication on sega-wuzhaoyu with PID 24944 (G:\OTW\otw-web\target\classes started by 19666 in G:\OTW)
+2019-09-24 20:32:46.940  INFO 24944 --- [main] com.wzy.SystemApplication                : The following profiles are active: dev
+2019-09-24 20:32:47.011  INFO 24944 --- [main] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-24 20:32:47.963  WARN 24944 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.wzy.mapper.*]' package. Please check your configuration.
+2019-09-24 20:32:48.407  INFO 24944 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-24 20:32:48.419  INFO 24944 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-24 20:32:48.503  INFO 24944 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60ms. Found 0 repository interfaces.
+2019-09-24 20:32:48.511  INFO 24944 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-24 20:32:48.511  INFO 24944 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-24 20:32:48.535  INFO 24944 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+2019-09-24 20:32:49.278  INFO 24944 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$eb4557da] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-24 20:32:49.984  INFO 24944 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2019-09-24 20:32:50.004  INFO 24944 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-24 20:32:50.004  INFO 24944 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-09-24 20:32:50.010  INFO 24944 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files (x86)\Java\jdk1.8.0_144\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;F:\xshell\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\Program Files\Java\jdk1.8.0_161\jre\bin;D:\gradle\gradle-4.3\bin;D:\svn\bin;D:\node\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Microsoft VS Code\Microsoft VS Code\bin;D:\Git\bin;D:\Anaconda\Scripts;D:\Anaconda;D:\Anaconda\Library\bin;D:\apache-maven\bin;C:\Users\19666\AppData\Local\Microsoft\WindowsApps;C:\Users\19666\AppData\Roaming\npm;;.]
+2019-09-24 20:32:50.332  INFO 24944 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-09-24 20:32:50.336  INFO 24944 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-09-24 20:32:50.337 DEBUG 24944 --- [main] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-09-24 20:32:50.337  INFO 24944 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3325 ms
+2019-09-24 20:32:53.260  INFO 24944 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-09-24 20:32:53.262  WARN 24944 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-09-24 20:32:53.536  INFO 24944 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-09-24 20:32:54.952 TRACE 24944 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/**/favicon.ico] onto ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/], class path resource []]
+2019-09-24 20:32:54.952 DEBUG 24944 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-09-24 20:32:55.312  INFO 24944 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-24 20:32:55.340 DEBUG 24944 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-09-24 20:32:55.401 TRACE 24944 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
 	c.w.c.F.uploadContrller:
 	{POST /fileUploadController}: fileUpload(MultipartFile,HttpSession)
-2019-09-04 20:32:15.447 TRACE 22636 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+2019-09-24 20:32:55.407 TRACE 24944 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
 	c.w.c.p.BizArticleController:
+	{GET /bizArticle/queryRecentSixMonthCondition}: queryRecentSixMonthCondition(String,Model)
+	{POST /bizArticle/queryAritcleGroupByType}: queryAritcleGroupByType(Model)
+	{ /bizArticle/queryRecentSixMonthTotal}: queryRecentSixMonthTotal()
+	{POST /bizArticle/recentPosts}: recentPosts(Model)
 	{POST /bizArticle/queryCondition}: queryCondition(JSONObject)
 	{ /bizArticle/singlePost/{tid}}: singlePost(Long)
-	{POST /bizArticle/recentPosts}: recentPosts(Model)
 	{POST /bizArticle/blogList}: blogPage(JSONObject,Model)
 	{POST /bizArticle/grid}: grid(ModelAndView)
-	{ /bizArticle/queryRecentSixMonthTotal}: queryRecentSixMonthTotal()
-	{POST /bizArticle/queryAritcleGroupByType}: queryAritcleGroupByType(Model)
-	{GET /bizArticle/queryRecentSixMonthCondition}: queryRecentSixMonthCondition(String,Model)
-2019-09-04 20:32:15.448 TRACE 22636 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+2019-09-24 20:32:55.407 TRACE 24944 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
 	c.w.c.p.BizArticleLookController:
 	
-2019-09-04 20:32:15.448 TRACE 22636 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+2019-09-24 20:32:55.408 TRACE 24944 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
 	c.w.c.p.BizArticleLoveController:
 	
-2019-09-04 20:32:15.448 TRACE 22636 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+2019-09-24 20:32:55.408 TRACE 24944 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
 	c.w.c.p.BizArticleTagsController:
 	
-2019-09-04 20:32:15.448 TRACE 22636 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+2019-09-24 20:32:55.408 TRACE 24944 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
 	c.w.c.p.BizCommentController:
 	
-2019-09-04 20:32:15.448 TRACE 22636 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+2019-09-24 20:32:55.408 TRACE 24944 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
 	c.w.c.p.BizFileController:
 	
-2019-09-04 20:32:15.448 TRACE 22636 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+2019-09-24 20:32:55.408 TRACE 24944 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
 	c.w.c.p.BizTagsController:
 	
-2019-09-04 20:32:15.449 TRACE 22636 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+2019-09-24 20:32:55.408 TRACE 24944 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
 	c.w.c.p.BizTypeController:
 	
-2019-09-04 20:32:15.449 TRACE 22636 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+2019-09-24 20:32:55.408 TRACE 24944 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
 	c.w.c.p.SysConfigController:
 	
-2019-09-04 20:32:15.450 TRACE 22636 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+2019-09-24 20:32:55.409 TRACE 24944 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
 	c.w.c.p.SysContentsController:
 	{POST /contentResources/queryCondition}: userList(JSONObject)
 	{POST /contentResources/queryDetailByTid}: queryDetailByTid(JSONObject)
-2019-09-04 20:32:15.450 TRACE 22636 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+2019-09-24 20:32:55.409 TRACE 24944 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
 	c.w.c.p.SysLinkController:
 	
-2019-09-04 20:32:15.450 TRACE 22636 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+2019-09-24 20:32:55.409 TRACE 24944 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
 	c.w.c.p.SysLogController:
 	
-2019-09-04 20:32:15.451 TRACE 22636 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+2019-09-24 20:32:55.409 TRACE 24944 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
 	c.w.c.p.SysNoticeController:
 	
-2019-09-04 20:32:15.451 TRACE 22636 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+2019-09-24 20:32:55.410 TRACE 24944 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
 	c.w.c.p.SysTemplateController:
 	
-2019-09-04 20:32:15.451 TRACE 22636 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+2019-09-24 20:32:55.410 TRACE 24944 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
 	c.w.c.s.CoreController:
 	{ /exit}: exit(String)
-2019-09-04 20:32:15.453 TRACE 22636 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+2019-09-24 20:32:55.412 TRACE 24944 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
 	c.w.c.s.ExceptionController:
 	{ /error/500}: exception()
 	{ /error/show2}: showInfo2()
 	{ /error/404}: notFound()
-2019-09-04 20:32:15.454 TRACE 22636 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+2019-09-24 20:32:55.412 TRACE 24944 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
 	c.w.c.s.FileController:
 	{POST /file/uploadFile}: uploadFile(MultipartFile[],HttpSession,HttpServletRequest)
 	{GET /file/showImage}: showImage(String,HttpServletResponse,HttpServletRequest)
-2019-09-04 20:32:15.456 TRACE 22636 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+2019-09-24 20:32:55.414 TRACE 24944 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
 	c.w.c.s.SolrController:
 	{ /solr/add}: add()
 	{ /solr/delete}: delete(String)
 	{ /solr/search1}: search()
+	{ /solr/getById}: getById(String)
 	{ /solr/deleteAll}: deleteAll()
 	{ /solr/search}: searchPage(String,int,int,String,Model)
 	{ /solr/spellCheck}: SpellCheck(String)
-	{ /solr/getById}: getById(String)
-2019-09-04 20:32:15.457 TRACE 22636 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+2019-09-24 20:32:55.415 TRACE 24944 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
 	c.w.c.s.SysContentController:
 	{POST /api/sysResources/save}: save(JSONObject)
 	{POST /api/sysResources/queryCondition}: queryCondition(JSONObject)
-2019-09-04 20:32:15.459 TRACE 22636 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+2019-09-24 20:32:55.417 TRACE 24944 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
 	c.w.c.t.PortalController:
 	{ [/portal/, /]}: index()
 	{ [/portal/catalog, /catalog]}: catalog()
@@ -113,28 +113,28 @@
 	{ [/portal/blog, /blog]}: blogPage()
 	{ [/portal/grid, /grid]}: grid(ModelAndView)
 	{ [/portal/about, /about]}: about()
-2019-09-04 20:32:15.460 TRACE 22636 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+2019-09-24 20:32:55.418 TRACE 24944 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
 	c.w.r.LogController:
 	
-2019-09-04 20:32:15.462 TRACE 22636 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+2019-09-24 20:32:55.419 TRACE 24944 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
 	o.s.b.a.w.s.e.BasicErrorController:
 	{ /error}: error(HttpServletRequest)
 	{ /error, produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
-2019-09-04 20:32:15.468 DEBUG 22636 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 37 mappings in 'requestMappingHandlerMapping'
-2019-09-04 20:32:15.491 DEBUG 22636 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Detected 0 mappings in 'beanNameHandlerMapping'
-2019-09-04 20:32:15.500 TRACE 22636 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/webjars/**] onto ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
-2019-09-04 20:32:15.501 TRACE 22636 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/static/** ,/templates/**,/public/**] onto ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
-2019-09-04 20:32:15.501 TRACE 22636 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/static/**] onto ResourceHttpRequestHandler ["classpath:/static/"]
-2019-09-04 20:32:15.501 TRACE 22636 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/templates/**] onto ResourceHttpRequestHandler ["classpath:/templates/"]
-2019-09-04 20:32:15.501 TRACE 22636 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/public/**] onto ResourceHttpRequestHandler ["classpath:/templates/portal/public/"]
-2019-09-04 20:32:15.501 DEBUG 22636 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /static/** ,/templates/**,/public/**, /static/**, /templates/**, /public/**] in 'resourceHandlerMapping'
-2019-09-04 20:32:15.522 DEBUG 22636 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
-2019-09-04 20:32:15.632  INFO 22636 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2019-09-04 20:32:16.425  INFO 22636 --- [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
-2019-09-04 20:32:16.441  INFO 22636 --- [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
-2019-09-04 20:32:16.443  INFO 22636 --- [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.2.1 created.
-2019-09-04 20:32:16.444  INFO 22636 --- [main] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
-2019-09-04 20:32:16.444  INFO 22636 --- [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.2.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+2019-09-24 20:32:55.424 DEBUG 24944 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 37 mappings in 'requestMappingHandlerMapping'
+2019-09-24 20:32:55.440 DEBUG 24944 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Detected 0 mappings in 'beanNameHandlerMapping'
+2019-09-24 20:32:55.448 TRACE 24944 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/webjars/**] onto ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2019-09-24 20:32:55.448 TRACE 24944 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/static/** ,/templates/**,/public/**] onto ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-09-24 20:32:55.448 TRACE 24944 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/static/**] onto ResourceHttpRequestHandler ["classpath:/static/"]
+2019-09-24 20:32:55.448 TRACE 24944 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/templates/**] onto ResourceHttpRequestHandler ["classpath:/templates/"]
+2019-09-24 20:32:55.448 TRACE 24944 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/public/**] onto ResourceHttpRequestHandler ["classpath:/templates/portal/public/"]
+2019-09-24 20:32:55.448 DEBUG 24944 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /static/** ,/templates/**,/public/**, /static/**, /templates/**, /public/**] in 'resourceHandlerMapping'
+2019-09-24 20:32:55.467 DEBUG 24944 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-09-24 20:32:55.550  INFO 24944 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-09-24 20:32:56.202  INFO 24944 --- [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2019-09-24 20:32:56.214  INFO 24944 --- [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-09-24 20:32:56.215  INFO 24944 --- [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.2.1 created.
+2019-09-24 20:32:56.216  INFO 24944 --- [main] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2019-09-24 20:32:56.217  INFO 24944 --- [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.2.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
   Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
   NOT STARTED.
   Currently in standby mode.
@@ -142,622 +142,19 @@
   Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
   Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
 
-2019-09-04 20:32:16.444  INFO 22636 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
-2019-09-04 20:32:16.445  INFO 22636 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.2.1
-2019-09-04 20:32:16.445  INFO 22636 --- [main] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@a61e61
-2019-09-04 20:32:16.519  INFO 22636 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
-2019-09-04 20:32:16.628  INFO 22636 --- [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
-2019-09-04 20:32:16.629  INFO 22636 --- [main] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
-2019-09-04 20:32:16.698  INFO 22636 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
-2019-09-04 20:32:16.703  INFO 22636 --- [main] com.wzy.SystemApplication                : Started SystemApplication in 10.307 seconds (JVM running for 12.556)
-2019-09-04 20:32:37.169  INFO 22636 --- [http-nio-8088-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:37.169  INFO 22636 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2019-09-04 20:32:37.169 TRACE 22636 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.multipart.support.StandardServletMultipartResolver@56e26f
-2019-09-04 20:32:37.171 TRACE 22636 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : No LocaleResolver 'localeResolver': using default [AcceptHeaderLocaleResolver]
-2019-09-04 20:32:37.172 TRACE 22636 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : No ThemeResolver 'themeResolver': using default [FixedThemeResolver]
-2019-09-04 20:32:37.176 TRACE 22636 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : No RequestToViewNameTranslator 'viewNameTranslator': using default [DefaultRequestToViewNameTranslator]
-2019-09-04 20:32:37.180 TRACE 22636 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : No FlashMapManager 'flashMapManager': using default [SessionFlashMapManager]
-2019-09-04 20:32:37.180 DEBUG 22636 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
-2019-09-04 20:32:37.180  INFO 22636 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
-2019-09-04 20:32:37.194 TRACE 22636 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:37.201 TRACE 22636 --- [http-nio-8088-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.wzy.controller.transmint.PortalController.index()
-2019-09-04 20:32:37.209 TRACE 22636 --- [http-nio-8088-exec-1] .w.s.m.m.a.ServletInvocableHandlerMethod : Arguments: []
-2019-09-04 20:32:37.219 DEBUG 22636 --- [http-nio-8088-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
-2019-09-04 20:32:37.220 TRACE 22636 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Rendering view [org.thymeleaf.spring5.view.ThymeleafView@467f8d] 
-2019-09-04 20:32:37.471 DEBUG 22636 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
-2019-09-04 20:32:37.471 TRACE 22636 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/static/portal/js/common/commonJS.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:37.473 TRACE 22636 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/static/portal/js/common/commonCss.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:37.479 TRACE 22636 --- [http-nio-8088-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/static/"]] and 4 interceptors
-2019-09-04 20:32:37.479 TRACE 22636 --- [http-nio-8088-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/static/"]] and 4 interceptors
-2019-09-04 20:32:37.494 TRACE 22636 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
-2019-09-04 20:32:37.494 TRACE 22636 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
-2019-09-04 20:32:37.495 DEBUG 22636 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
-2019-09-04 20:32:37.495 DEBUG 22636 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
-2019-09-04 20:32:38.336 TRACE 22636 --- [http-nio-8088-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/static/portal/img/scroll-icon.png", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:38.336 TRACE 22636 --- [http-nio-8088-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/static/portal/img/service_1.png", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:38.341 TRACE 22636 --- [http-nio-8088-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/static/"]] and 4 interceptors
-2019-09-04 20:32:38.341 TRACE 22636 --- [http-nio-8088-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/static/"]] and 4 interceptors
-2019-09-04 20:32:38.343 TRACE 22636 --- [http-nio-8088-exec-4] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
-2019-09-04 20:32:38.343 TRACE 22636 --- [http-nio-8088-exec-5] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
-2019-09-04 20:32:38.343 DEBUG 22636 --- [http-nio-8088-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
-2019-09-04 20:32:38.344 DEBUG 22636 --- [http-nio-8088-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
-2019-09-04 20:32:38.424 TRACE 22636 --- [http-nio-8088-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/static/portal/img/service_3.png", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:38.425 TRACE 22636 --- [http-nio-8088-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/static/portal/img/service_2.png", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:38.425 TRACE 22636 --- [http-nio-8088-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/static/portal/img/service_4.png", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:38.427 TRACE 22636 --- [http-nio-8088-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/static/"]] and 4 interceptors
-2019-09-04 20:32:38.427 TRACE 22636 --- [http-nio-8088-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/static/"]] and 4 interceptors
-2019-09-04 20:32:38.427 TRACE 22636 --- [http-nio-8088-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/static/"]] and 4 interceptors
-2019-09-04 20:32:38.429 TRACE 22636 --- [http-nio-8088-exec-8] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
-2019-09-04 20:32:38.429 TRACE 22636 --- [http-nio-8088-exec-7] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
-2019-09-04 20:32:38.429 DEBUG 22636 --- [http-nio-8088-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
-2019-09-04 20:32:38.429 DEBUG 22636 --- [http-nio-8088-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
-2019-09-04 20:32:38.430 TRACE 22636 --- [http-nio-8088-exec-6] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
-2019-09-04 20:32:38.430 DEBUG 22636 --- [http-nio-8088-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
-2019-09-04 20:32:38.431 TRACE 22636 --- [http-nio-8088-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/static/portal/img/service_5.png", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:38.431 TRACE 22636 --- [http-nio-8088-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/static/portal/img/service_6.png", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:38.435 TRACE 22636 --- [http-nio-8088-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/static/"]] and 4 interceptors
-2019-09-04 20:32:38.436 TRACE 22636 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/static/portal/img/contact-icon.png", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:38.437 TRACE 22636 --- [http-nio-8088-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/static/"]] and 4 interceptors
-2019-09-04 20:32:38.439 TRACE 22636 --- [http-nio-8088-exec-10] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
-2019-09-04 20:32:38.440 DEBUG 22636 --- [http-nio-8088-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
-2019-09-04 20:32:38.440 TRACE 22636 --- [http-nio-8088-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/static/"]] and 4 interceptors
-2019-09-04 20:32:38.442 TRACE 22636 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
-2019-09-04 20:32:38.442 TRACE 22636 --- [http-nio-8088-exec-9] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
-2019-09-04 20:32:38.442 DEBUG 22636 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
-2019-09-04 20:32:38.442 DEBUG 22636 --- [http-nio-8088-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
-2019-09-04 20:32:38.580 TRACE 22636 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/static/portal/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:38.580 TRACE 22636 --- [http-nio-8088-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/static/portal/js/vendor/bootstrap.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:38.581 TRACE 22636 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/static/portal/js/vendor/jquery-1.11.2.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:38.581 TRACE 22636 --- [http-nio-8088-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/static/portal/js/plugins.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:38.583 TRACE 22636 --- [http-nio-8088-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/static/"]] and 4 interceptors
-2019-09-04 20:32:38.583 TRACE 22636 --- [http-nio-8088-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/static/"]] and 4 interceptors
-2019-09-04 20:32:38.583 TRACE 22636 --- [http-nio-8088-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/static/"]] and 4 interceptors
-2019-09-04 20:32:38.585 TRACE 22636 --- [http-nio-8088-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/static/portal/js/main.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:38.585 TRACE 22636 --- [http-nio-8088-exec-5] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
-2019-09-04 20:32:38.583 TRACE 22636 --- [http-nio-8088-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/static/"]] and 4 interceptors
-2019-09-04 20:32:38.597 DEBUG 22636 --- [http-nio-8088-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
-2019-09-04 20:32:38.600 TRACE 22636 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
-2019-09-04 20:32:38.600 DEBUG 22636 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
-2019-09-04 20:32:38.600 TRACE 22636 --- [http-nio-8088-exec-4] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
-2019-09-04 20:32:38.600 DEBUG 22636 --- [http-nio-8088-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
-2019-09-04 20:32:38.600 TRACE 22636 --- [http-nio-8088-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/static/js/common/common.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:38.602 TRACE 22636 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
-2019-09-04 20:32:38.602 DEBUG 22636 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
-2019-09-04 20:32:38.604 TRACE 22636 --- [http-nio-8088-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/static/"]] and 4 interceptors
-2019-09-04 20:32:38.605 TRACE 22636 --- [http-nio-8088-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/static/"]] and 4 interceptors
-2019-09-04 20:32:38.606 TRACE 22636 --- [http-nio-8088-exec-7] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
-2019-09-04 20:32:38.607 TRACE 22636 --- [http-nio-8088-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/static/portal/assets/js/imagesloaded.pkgd.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:38.608 DEBUG 22636 --- [http-nio-8088-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
-2019-09-04 20:32:38.609 TRACE 22636 --- [http-nio-8088-exec-8] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
-2019-09-04 20:32:38.611 TRACE 22636 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/static/portal/assets/js/CSSPlugin.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:38.611 TRACE 22636 --- [http-nio-8088-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/static/"]] and 4 interceptors
-2019-09-04 20:32:38.610 TRACE 22636 --- [http-nio-8088-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/static/portal/assets/js/TweenMax.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:38.612 TRACE 22636 --- [http-nio-8088-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/static/portal/assets/js/TextPlugin.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:38.611 DEBUG 22636 --- [http-nio-8088-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
-2019-09-04 20:32:38.613 TRACE 22636 --- [http-nio-8088-exec-4] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
-2019-09-04 20:32:38.613 DEBUG 22636 --- [http-nio-8088-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
-2019-09-04 20:32:38.613 TRACE 22636 --- [http-nio-8088-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/static/"]] and 4 interceptors
-2019-09-04 20:32:38.613 TRACE 22636 --- [http-nio-8088-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/static/"]] and 4 interceptors
-2019-09-04 20:32:38.614 TRACE 22636 --- [http-nio-8088-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/static/"]] and 4 interceptors
-2019-09-04 20:32:38.614 TRACE 22636 --- [http-nio-8088-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/static/portal/assets/js/demo.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:38.615 TRACE 22636 --- [http-nio-8088-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/static/editor/editormd.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:38.617 TRACE 22636 --- [http-nio-8088-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/static/"]] and 4 interceptors
-2019-09-04 20:32:38.616 TRACE 22636 --- [http-nio-8088-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/static/"]] and 4 interceptors
-2019-09-04 20:32:38.617 TRACE 22636 --- [http-nio-8088-exec-5] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
-2019-09-04 20:32:38.617 DEBUG 22636 --- [http-nio-8088-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
-2019-09-04 20:32:38.618 TRACE 22636 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/static/editor/lib/mrettify.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:38.619 TRACE 22636 --- [http-nio-8088-exec-10] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
-2019-09-04 20:32:38.620 DEBUG 22636 --- [http-nio-8088-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
-2019-09-04 20:32:38.621 TRACE 22636 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
-2019-09-04 20:32:38.621 DEBUG 22636 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
-2019-09-04 20:32:38.621 TRACE 22636 --- [http-nio-8088-exec-8] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
-2019-09-04 20:32:38.621 DEBUG 22636 --- [http-nio-8088-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
-2019-09-04 20:32:38.617 TRACE 22636 --- [http-nio-8088-exec-6] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
-2019-09-04 20:32:38.622 DEBUG 22636 --- [http-nio-8088-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
-2019-09-04 20:32:38.622 TRACE 22636 --- [http-nio-8088-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/static/"]] and 4 interceptors
-2019-09-04 20:32:38.624 DEBUG 22636 --- [http-nio-8088-exec-1] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
-2019-09-04 20:32:38.625 TRACE 22636 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/static/editor/lib/raarked.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:38.626 TRACE 22636 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
-2019-09-04 20:32:38.627 TRACE 22636 --- [http-nio-8088-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/static/"]] and 4 interceptors
-2019-09-04 20:32:38.627 DEBUG 22636 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={}
-2019-09-04 20:32:38.628 DEBUG 22636 --- [http-nio-8088-exec-2] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
-2019-09-04 20:32:38.628 TRACE 22636 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
-2019-09-04 20:32:38.628 DEBUG 22636 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={}
-2019-09-04 20:32:38.627 TRACE 22636 --- [http-nio-8088-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/static/editor/lib/pphael.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:38.630 TRACE 22636 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/static/editor/lib/flowchart.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:38.630 TRACE 22636 --- [http-nio-8088-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/static/editor/lib/sequence-diagram.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:38.630 TRACE 22636 --- [http-nio-8088-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/static/editor/lib/underscore.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:38.630 TRACE 22636 --- [http-nio-8088-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/static/"]] and 4 interceptors
-2019-09-04 20:32:38.631 DEBUG 22636 --- [http-nio-8088-exec-6] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
-2019-09-04 20:32:38.631 TRACE 22636 --- [http-nio-8088-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/static/"]] and 4 interceptors
-2019-09-04 20:32:38.631 TRACE 22636 --- [http-nio-8088-exec-6] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
-2019-09-04 20:32:38.631 DEBUG 22636 --- [http-nio-8088-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={}
-2019-09-04 20:32:38.631 TRACE 22636 --- [http-nio-8088-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/static/"]] and 4 interceptors
-2019-09-04 20:32:38.631 TRACE 22636 --- [http-nio-8088-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/static/"]] and 4 interceptors
-2019-09-04 20:32:38.633 TRACE 22636 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
-2019-09-04 20:32:38.633 DEBUG 22636 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
-2019-09-04 20:32:38.633 TRACE 22636 --- [http-nio-8088-exec-8] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
-2019-09-04 20:32:38.633 DEBUG 22636 --- [http-nio-8088-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
-2019-09-04 20:32:38.634 TRACE 22636 --- [http-nio-8088-exec-9] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
-2019-09-04 20:32:38.635 DEBUG 22636 --- [http-nio-8088-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
-2019-09-04 20:32:38.640 TRACE 22636 --- [http-nio-8088-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/static/editor/lib/jquery.flowchart.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:38.641 TRACE 22636 --- [http-nio-8088-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/static/"]] and 4 interceptors
-2019-09-04 20:32:38.643 TRACE 22636 --- [http-nio-8088-exec-4] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
-2019-09-04 20:32:38.643 DEBUG 22636 --- [http-nio-8088-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
-2019-09-04 20:32:38.644 TRACE 22636 --- [http-nio-8088-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/static/portal/img/close_contact.png", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:38.646 TRACE 22636 --- [http-nio-8088-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/static/"]] and 4 interceptors
-2019-09-04 20:32:38.647 TRACE 22636 --- [http-nio-8088-exec-10] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
-2019-09-04 20:32:38.647 DEBUG 22636 --- [http-nio-8088-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
-2019-09-04 20:32:38.659 TRACE 22636 --- [http-nio-8088-exec-6] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/404", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:38.659 TRACE 22636 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/404", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:38.659 TRACE 22636 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/404", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:38.660  WARN 22636 --- [http-nio-8088-exec-2] o.s.web.servlet.PageNotFound             : No mapping for GET /404
-2019-09-04 20:32:38.660  WARN 22636 --- [http-nio-8088-exec-6] o.s.web.servlet.PageNotFound             : No mapping for GET /404
-2019-09-04 20:32:38.661 DEBUG 22636 --- [http-nio-8088-exec-6] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={}
-2019-09-04 20:32:38.661 DEBUG 22636 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={}
-2019-09-04 20:32:38.661  WARN 22636 --- [http-nio-8088-exec-1] o.s.web.servlet.PageNotFound             : No mapping for GET /404
-2019-09-04 20:32:38.661 DEBUG 22636 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={}
-2019-09-04 20:32:38.847 TRACE 22636 --- [http-nio-8088-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/static/editor/lib/mrettify.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:38.847 TRACE 22636 --- [http-nio-8088-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/static/editor/lib/raarked.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:38.848 TRACE 22636 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/static/editor/lib/pphael.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:38.848 TRACE 22636 --- [http-nio-8088-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/static/"]] and 4 interceptors
-2019-09-04 20:32:38.848 TRACE 22636 --- [http-nio-8088-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/static/"]] and 4 interceptors
-2019-09-04 20:32:38.849 DEBUG 22636 --- [http-nio-8088-exec-7] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
-2019-09-04 20:32:38.849 TRACE 22636 --- [http-nio-8088-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/static/"]] and 4 interceptors
-2019-09-04 20:32:38.849 TRACE 22636 --- [http-nio-8088-exec-7] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
-2019-09-04 20:32:38.849 DEBUG 22636 --- [http-nio-8088-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={}
-2019-09-04 20:32:38.849 DEBUG 22636 --- [http-nio-8088-exec-3] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
-2019-09-04 20:32:38.849 TRACE 22636 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
-2019-09-04 20:32:38.849 DEBUG 22636 --- [http-nio-8088-exec-5] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
-2019-09-04 20:32:38.849 DEBUG 22636 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={}
-2019-09-04 20:32:38.849 TRACE 22636 --- [http-nio-8088-exec-5] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
-2019-09-04 20:32:38.849 TRACE 22636 --- [http-nio-8088-exec-7] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/404", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:38.849 DEBUG 22636 --- [http-nio-8088-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={}
-2019-09-04 20:32:38.849 TRACE 22636 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/404", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:38.850 TRACE 22636 --- [http-nio-8088-exec-5] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/404", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:38.850  WARN 22636 --- [http-nio-8088-exec-7] o.s.web.servlet.PageNotFound             : No mapping for GET /404
-2019-09-04 20:32:38.851 DEBUG 22636 --- [http-nio-8088-exec-7] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={}
-2019-09-04 20:32:38.851  WARN 22636 --- [http-nio-8088-exec-3] o.s.web.servlet.PageNotFound             : No mapping for GET /404
-2019-09-04 20:32:38.851 DEBUG 22636 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={}
-2019-09-04 20:32:38.851  WARN 22636 --- [http-nio-8088-exec-5] o.s.web.servlet.PageNotFound             : No mapping for GET /404
-2019-09-04 20:32:38.851 DEBUG 22636 --- [http-nio-8088-exec-5] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={}
-2019-09-04 20:32:38.915 TRACE 22636 --- [http-nio-8088-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/static/editor/lib/mrettify.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:38.916 TRACE 22636 --- [http-nio-8088-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/static/"]] and 4 interceptors
-2019-09-04 20:32:38.916 DEBUG 22636 --- [http-nio-8088-exec-8] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
-2019-09-04 20:32:38.916 TRACE 22636 --- [http-nio-8088-exec-8] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
-2019-09-04 20:32:38.916 DEBUG 22636 --- [http-nio-8088-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={}
-2019-09-04 20:32:38.917 TRACE 22636 --- [http-nio-8088-exec-8] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/404", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:38.917  WARN 22636 --- [http-nio-8088-exec-8] o.s.web.servlet.PageNotFound             : No mapping for GET /404
-2019-09-04 20:32:38.918 DEBUG 22636 --- [http-nio-8088-exec-8] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={}
-2019-09-04 20:32:38.923 TRACE 22636 --- [http-nio-8088-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/static/editor/lib/raarked.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:38.925 TRACE 22636 --- [http-nio-8088-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/static/"]] and 4 interceptors
-2019-09-04 20:32:38.925 DEBUG 22636 --- [http-nio-8088-exec-9] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
-2019-09-04 20:32:38.926 TRACE 22636 --- [http-nio-8088-exec-9] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
-2019-09-04 20:32:38.926 DEBUG 22636 --- [http-nio-8088-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={}
-2019-09-04 20:32:38.926 TRACE 22636 --- [http-nio-8088-exec-9] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/404", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:38.927  WARN 22636 --- [http-nio-8088-exec-9] o.s.web.servlet.PageNotFound             : No mapping for GET /404
-2019-09-04 20:32:38.927 DEBUG 22636 --- [http-nio-8088-exec-9] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={}
-2019-09-04 20:32:38.933 TRACE 22636 --- [http-nio-8088-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/static/editor/lib/pphael.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:38.934 TRACE 22636 --- [http-nio-8088-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/static/"]] and 4 interceptors
-2019-09-04 20:32:38.934 DEBUG 22636 --- [http-nio-8088-exec-4] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
-2019-09-04 20:32:38.934 TRACE 22636 --- [http-nio-8088-exec-4] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
-2019-09-04 20:32:38.934 DEBUG 22636 --- [http-nio-8088-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={}
-2019-09-04 20:32:38.934 TRACE 22636 --- [http-nio-8088-exec-4] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/404", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:38.935  WARN 22636 --- [http-nio-8088-exec-4] o.s.web.servlet.PageNotFound             : No mapping for GET /404
-2019-09-04 20:32:38.935 DEBUG 22636 --- [http-nio-8088-exec-4] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={}
-2019-09-04 20:32:38.951 TRACE 22636 --- [http-nio-8088-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/static/portal/css/bootstrap.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:38.951 TRACE 22636 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/static/portal/css/bootstrap-theme.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:38.952 TRACE 22636 --- [http-nio-8088-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/static/"]] and 4 interceptors
-2019-09-04 20:32:38.953 TRACE 22636 --- [http-nio-8088-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/static/"]] and 4 interceptors
-2019-09-04 20:32:38.953 TRACE 22636 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/static/portal/css/light-box.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:38.954 TRACE 22636 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/static/portal/assets/css/demo.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:38.954 TRACE 22636 --- [http-nio-8088-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/static/portal/css/templatemo-style.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:38.955 TRACE 22636 --- [http-nio-8088-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/static/"]] and 4 interceptors
-2019-09-04 20:32:38.955 TRACE 22636 --- [http-nio-8088-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/static/portal/css/fontAwesome.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:38.955 TRACE 22636 --- [http-nio-8088-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/static/"]] and 4 interceptors
-2019-09-04 20:32:38.956 TRACE 22636 --- [http-nio-8088-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/static/"]] and 4 interceptors
-2019-09-04 20:32:38.956 TRACE 22636 --- [http-nio-8088-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/static/"]] and 4 interceptors
-2019-09-04 20:32:39.214 TRACE 22636 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
-2019-09-04 20:32:39.214 DEBUG 22636 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
-2019-09-04 20:32:39.217 TRACE 22636 --- [http-nio-8088-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/static/editor/css/editormd.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:39.218 TRACE 22636 --- [http-nio-8088-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/static/"]] and 4 interceptors
-2019-09-04 20:32:39.278 TRACE 22636 --- [http-nio-8088-exec-7] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
-2019-09-04 20:32:39.278 DEBUG 22636 --- [http-nio-8088-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
-2019-09-04 20:32:39.279 TRACE 22636 --- [http-nio-8088-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/static/editor/examples/css/style.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:39.280 TRACE 22636 --- [http-nio-8088-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/static/"]] and 4 interceptors
-2019-09-04 20:32:39.285 TRACE 22636 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
-2019-09-04 20:32:39.285 DEBUG 22636 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
-2019-09-04 20:32:39.288 TRACE 22636 --- [http-nio-8088-exec-6] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
-2019-09-04 20:32:39.288 DEBUG 22636 --- [http-nio-8088-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
-2019-09-04 20:32:39.289 TRACE 22636 --- [http-nio-8088-exec-7] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
-2019-09-04 20:32:39.289 DEBUG 22636 --- [http-nio-8088-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
-2019-09-04 20:32:39.291 TRACE 22636 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
-2019-09-04 20:32:39.291 DEBUG 22636 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
-2019-09-04 20:32:39.336 TRACE 22636 --- [http-nio-8088-exec-5] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
-2019-09-04 20:32:39.336 DEBUG 22636 --- [http-nio-8088-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
-2019-09-04 20:32:39.432 TRACE 22636 --- [http-nio-8088-exec-10] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
-2019-09-04 20:32:39.432 DEBUG 22636 --- [http-nio-8088-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
-2019-09-04 20:32:39.450 TRACE 22636 --- [http-nio-8088-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/static/portal/img/close.png", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:39.451 TRACE 22636 --- [http-nio-8088-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/static/portal/img/loading.gif", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:39.451 TRACE 22636 --- [http-nio-8088-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/static/portal/img/prev.png", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:39.451 TRACE 22636 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/static/portal/img/next.png", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:39.451 TRACE 22636 --- [http-nio-8088-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/static/"]] and 4 interceptors
-2019-09-04 20:32:39.451 TRACE 22636 --- [http-nio-8088-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/static/"]] and 4 interceptors
-2019-09-04 20:32:39.452 TRACE 22636 --- [http-nio-8088-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/static/"]] and 4 interceptors
-2019-09-04 20:32:39.452 TRACE 22636 --- [http-nio-8088-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/static/"]] and 4 interceptors
-2019-09-04 20:32:39.452 TRACE 22636 --- [http-nio-8088-exec-8] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
-2019-09-04 20:32:39.453 DEBUG 22636 --- [http-nio-8088-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
-2019-09-04 20:32:39.467 TRACE 22636 --- [http-nio-8088-exec-4] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
-2019-09-04 20:32:39.467 DEBUG 22636 --- [http-nio-8088-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
-2019-09-04 20:32:39.475 TRACE 22636 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
-2019-09-04 20:32:39.475 DEBUG 22636 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
-2019-09-04 20:32:39.532 TRACE 22636 --- [http-nio-8088-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/public/catalog.html", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:39.532 TRACE 22636 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/public/footer.html", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:39.532 TRACE 22636 --- [http-nio-8088-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/static/portal/video/Dreamy-Basketball.mp4", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:39.532 TRACE 22636 --- [http-nio-8088-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/templates/portal/public/"]] and 4 interceptors
-2019-09-04 20:32:39.533 TRACE 22636 --- [http-nio-8088-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/templates/portal/public/"]] and 4 interceptors
-2019-09-04 20:32:39.533 TRACE 22636 --- [http-nio-8088-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/static/"]] and 4 interceptors
-2019-09-04 20:32:39.533 TRACE 22636 --- [http-nio-8088-exec-6] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
-2019-09-04 20:32:39.534 TRACE 22636 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
-2019-09-04 20:32:39.534 DEBUG 22636 --- [http-nio-8088-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
-2019-09-04 20:32:39.534 DEBUG 22636 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
-2019-09-04 20:32:39.716 TRACE 22636 --- [http-nio-8088-exec-9] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
-2019-09-04 20:32:39.718 DEBUG 22636 --- [http-nio-8088-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
-2019-09-04 20:32:40.011 TRACE 22636 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/static/portal/video/Dreamy-Basketball.mp4", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:40.013 TRACE 22636 --- [http-nio-8088-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/static/"]] and 4 interceptors
-2019-09-04 20:32:40.727 TRACE 22636 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
-2019-09-04 20:32:40.727 DEBUG 22636 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 206 PARTIAL_CONTENT, headers={masked}
-2019-09-04 20:32:40.731 TRACE 22636 --- [http-nio-8088-exec-7] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
-2019-09-04 20:32:40.731 DEBUG 22636 --- [http-nio-8088-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 206 PARTIAL_CONTENT, headers={masked}
-2019-09-04 20:32:40.738 TRACE 22636 --- [http-nio-8088-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/static/portal/video/Dreamy-Basketball.mp4", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:40.739 TRACE 22636 --- [http-nio-8088-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/static/"]] and 4 interceptors
-2019-09-04 20:32:41.121 TRACE 22636 --- [http-nio-8088-exec-5] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
-2019-09-04 20:32:41.122 DEBUG 22636 --- [http-nio-8088-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 206 PARTIAL_CONTENT, headers={masked}
-2019-09-04 20:32:41.124 TRACE 22636 --- [http-nio-8088-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/static/portal/video/Dreamy-Basketball.mp4", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:41.126 TRACE 22636 --- [http-nio-8088-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/static/"]] and 4 interceptors
-2019-09-04 20:32:41.127 TRACE 22636 --- [http-nio-8088-exec-10] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
-2019-09-04 20:32:41.127 DEBUG 22636 --- [http-nio-8088-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 206 PARTIAL_CONTENT, headers={masked}
-2019-09-04 20:32:47.697 TRACE 22636 --- [http-nio-8088-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/portal/blog", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:47.698 TRACE 22636 --- [http-nio-8088-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.web.servlet.ModelAndView com.wzy.controller.transmint.PortalController.blogPage()
-2019-09-04 20:32:47.699 TRACE 22636 --- [http-nio-8088-exec-8] .w.s.m.m.a.ServletInvocableHandlerMethod : Arguments: []
-2019-09-04 20:32:48.131 DEBUG 22636 --- [http-nio-8088-exec-8] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
-2019-09-04 20:32:48.131 TRACE 22636 --- [http-nio-8088-exec-8] o.s.web.servlet.DispatcherServlet        : Rendering view [org.thymeleaf.spring5.view.ThymeleafView@175211e] 
-2019-09-04 20:32:48.387 DEBUG 22636 --- [http-nio-8088-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
-2019-09-04 20:32:48.408 TRACE 22636 --- [http-nio-8088-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/static/portal/js/vendor/bootstrap-suggest.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:48.410 TRACE 22636 --- [http-nio-8088-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/static/"]] and 4 interceptors
-2019-09-04 20:32:48.413 TRACE 22636 --- [http-nio-8088-exec-4] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
-2019-09-04 20:32:48.414 DEBUG 22636 --- [http-nio-8088-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
-2019-09-04 20:32:48.414 TRACE 22636 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/portal/img/latest_gallery_1.png", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:48.414 TRACE 22636 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/portal/img/blog_post_3.png", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:48.416  WARN 22636 --- [http-nio-8088-exec-1] o.s.web.servlet.PageNotFound             : No mapping for GET /portal/img/latest_gallery_1.png
-2019-09-04 20:32:48.416  WARN 22636 --- [http-nio-8088-exec-3] o.s.web.servlet.PageNotFound             : No mapping for GET /portal/img/blog_post_3.png
-2019-09-04 20:32:48.416 DEBUG 22636 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={}
-2019-09-04 20:32:48.416 DEBUG 22636 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={}
-2019-09-04 20:32:48.420 TRACE 22636 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/404", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:48.421 TRACE 22636 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/404", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:48.422  WARN 22636 --- [http-nio-8088-exec-1] o.s.web.servlet.PageNotFound             : No mapping for GET /404
-2019-09-04 20:32:48.422 DEBUG 22636 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={}
-2019-09-04 20:32:48.423  WARN 22636 --- [http-nio-8088-exec-3] o.s.web.servlet.PageNotFound             : No mapping for GET /404
-2019-09-04 20:32:48.423 DEBUG 22636 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={}
-2019-09-04 20:32:48.481 TRACE 22636 --- [http-nio-8088-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/portal/img/latest_gallery_2.png", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:48.482 TRACE 22636 --- [http-nio-8088-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/portal/img/latest_gallery_3.png", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:48.482  WARN 22636 --- [http-nio-8088-exec-6] o.s.web.servlet.PageNotFound             : No mapping for GET /portal/img/latest_gallery_2.png
-2019-09-04 20:32:48.483 DEBUG 22636 --- [http-nio-8088-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={}
-2019-09-04 20:32:48.483  WARN 22636 --- [http-nio-8088-exec-9] o.s.web.servlet.PageNotFound             : No mapping for GET /portal/img/latest_gallery_3.png
-2019-09-04 20:32:48.484 TRACE 22636 --- [http-nio-8088-exec-6] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/404", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:48.485 DEBUG 22636 --- [http-nio-8088-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={}
-2019-09-04 20:32:48.485  WARN 22636 --- [http-nio-8088-exec-6] o.s.web.servlet.PageNotFound             : No mapping for GET /404
-2019-09-04 20:32:48.486 TRACE 22636 --- [http-nio-8088-exec-9] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/404", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:48.486 DEBUG 22636 --- [http-nio-8088-exec-6] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={}
-2019-09-04 20:32:48.491  WARN 22636 --- [http-nio-8088-exec-9] o.s.web.servlet.PageNotFound             : No mapping for GET /404
-2019-09-04 20:32:48.492 DEBUG 22636 --- [http-nio-8088-exec-9] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={}
-2019-09-04 20:32:48.509 TRACE 22636 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/portal/img/latest_gallery_4.png", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:48.509 TRACE 22636 --- [http-nio-8088-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/portal/img/latest_gallery_5.png", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:48.510  WARN 22636 --- [http-nio-8088-exec-2] o.s.web.servlet.PageNotFound             : No mapping for GET /portal/img/latest_gallery_4.png
-2019-09-04 20:32:48.510 DEBUG 22636 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={}
-2019-09-04 20:32:48.511  WARN 22636 --- [http-nio-8088-exec-7] o.s.web.servlet.PageNotFound             : No mapping for GET /portal/img/latest_gallery_5.png
-2019-09-04 20:32:48.511 DEBUG 22636 --- [http-nio-8088-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={}
-2019-09-04 20:32:48.511 TRACE 22636 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/404", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:48.512 TRACE 22636 --- [http-nio-8088-exec-7] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/404", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:48.513  WARN 22636 --- [http-nio-8088-exec-2] o.s.web.servlet.PageNotFound             : No mapping for GET /404
-2019-09-04 20:32:48.513  WARN 22636 --- [http-nio-8088-exec-7] o.s.web.servlet.PageNotFound             : No mapping for GET /404
-2019-09-04 20:32:48.513 DEBUG 22636 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={}
-2019-09-04 20:32:48.513 DEBUG 22636 --- [http-nio-8088-exec-7] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={}
-2019-09-04 20:32:48.554 TRACE 22636 --- [http-nio-8088-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/portal/img/latest_gallery_6.png", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:48.556  WARN 22636 --- [http-nio-8088-exec-5] o.s.web.servlet.PageNotFound             : No mapping for GET /portal/img/latest_gallery_6.png
-2019-09-04 20:32:48.556 DEBUG 22636 --- [http-nio-8088-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={}
-2019-09-04 20:32:48.556 TRACE 22636 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/portal/img/close_contact.png", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:48.557 TRACE 22636 --- [http-nio-8088-exec-5] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/404", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:48.556 TRACE 22636 --- [http-nio-8088-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/portal/img/latest_gallery_7.png", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:48.556 TRACE 22636 --- [http-nio-8088-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/portal/img/latest_gallery_8.png", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:48.557 TRACE 22636 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/portal/img/blog_post_3.png", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:48.557 TRACE 22636 --- [http-nio-8088-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/portal/img/contact-icon.png", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:48.567  WARN 22636 --- [http-nio-8088-exec-5] o.s.web.servlet.PageNotFound             : No mapping for GET /404
-2019-09-04 20:32:48.567 DEBUG 22636 --- [http-nio-8088-exec-5] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={}
-2019-09-04 20:32:48.567  WARN 22636 --- [http-nio-8088-exec-8] o.s.web.servlet.PageNotFound             : No mapping for GET /portal/img/latest_gallery_8.png
-2019-09-04 20:32:48.567  WARN 22636 --- [http-nio-8088-exec-1] o.s.web.servlet.PageNotFound             : No mapping for GET /portal/img/close_contact.png
-2019-09-04 20:32:48.567  WARN 22636 --- [http-nio-8088-exec-4] o.s.web.servlet.PageNotFound             : No mapping for GET /portal/img/contact-icon.png
-2019-09-04 20:32:48.567 DEBUG 22636 --- [http-nio-8088-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={}
-2019-09-04 20:32:48.567  WARN 22636 --- [http-nio-8088-exec-3] o.s.web.servlet.PageNotFound             : No mapping for GET /portal/img/blog_post_3.png
-2019-09-04 20:32:48.568 DEBUG 22636 --- [http-nio-8088-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={}
-2019-09-04 20:32:48.568 DEBUG 22636 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={}
-2019-09-04 20:32:48.568 DEBUG 22636 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={}
-2019-09-04 20:32:48.567  WARN 22636 --- [http-nio-8088-exec-10] o.s.web.servlet.PageNotFound             : No mapping for GET /portal/img/latest_gallery_7.png
-2019-09-04 20:32:48.568 DEBUG 22636 --- [http-nio-8088-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={}
-2019-09-04 20:32:48.568 TRACE 22636 --- [http-nio-8088-exec-8] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/404", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:48.568 TRACE 22636 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/404", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:48.569 TRACE 22636 --- [http-nio-8088-exec-10] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/404", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:48.568 TRACE 22636 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/404", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:48.568 TRACE 22636 --- [http-nio-8088-exec-4] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/404", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:48.570  WARN 22636 --- [http-nio-8088-exec-8] o.s.web.servlet.PageNotFound             : No mapping for GET /404
-2019-09-04 20:32:48.570 DEBUG 22636 --- [http-nio-8088-exec-8] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={}
-2019-09-04 20:32:48.570  WARN 22636 --- [http-nio-8088-exec-3] o.s.web.servlet.PageNotFound             : No mapping for GET /404
-2019-09-04 20:32:48.570 DEBUG 22636 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={}
-2019-09-04 20:32:48.571  WARN 22636 --- [http-nio-8088-exec-1] o.s.web.servlet.PageNotFound             : No mapping for GET /404
-2019-09-04 20:32:48.571  WARN 22636 --- [http-nio-8088-exec-4] o.s.web.servlet.PageNotFound             : No mapping for GET /404
-2019-09-04 20:32:48.572  WARN 22636 --- [http-nio-8088-exec-10] o.s.web.servlet.PageNotFound             : No mapping for GET /404
-2019-09-04 20:32:48.572 DEBUG 22636 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={}
-2019-09-04 20:32:48.572 DEBUG 22636 --- [http-nio-8088-exec-4] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={}
-2019-09-04 20:32:48.572 DEBUG 22636 --- [http-nio-8088-exec-10] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={}
-2019-09-04 20:32:48.575 TRACE 22636 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/static/portal/fonts/glyphicons-halflings-regular.woff", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:48.577 TRACE 22636 --- [http-nio-8088-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/static/"]] and 4 interceptors
-2019-09-04 20:32:48.583 TRACE 22636 --- [http-nio-8088-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/static/portal/img/heading_bg_book.jpg", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:48.585 TRACE 22636 --- [http-nio-8088-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/static/"]] and 4 interceptors
-2019-09-04 20:32:48.606 TRACE 22636 --- [http-nio-8088-exec-9] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
-2019-09-04 20:32:48.606 DEBUG 22636 --- [http-nio-8088-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
-2019-09-04 20:32:48.623 TRACE 22636 --- [http-nio-8088-exec-3] o.s.web.cors.DefaultCorsProcessor        : Skip: request is from same origin
-2019-09-04 20:32:48.659 TRACE 22636 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
-2019-09-04 20:32:48.659 DEBUG 22636 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
-2019-09-04 20:32:48.823 TRACE 22636 --- [http-nio-8088-exec-7] o.s.web.servlet.DispatcherServlet        : POST "/bizArticle/queryRecentSixMonthTotal", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:48.824 TRACE 22636 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/bizArticle/recentPosts", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:48.824 TRACE 22636 --- [http-nio-8088-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public com.wzy.common.ResultMsg com.wzy.controller.portal.BizArticleController.queryRecentSixMonthTotal()
-2019-09-04 20:32:48.825 TRACE 22636 --- [http-nio-8088-exec-7] o.s.web.cors.DefaultCorsProcessor        : Skip: request is from same origin
-2019-09-04 20:32:48.825 TRACE 22636 --- [http-nio-8088-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.wzy.controller.portal.BizArticleController.recentPosts(org.springframework.ui.Model)
-2019-09-04 20:32:48.826 TRACE 22636 --- [http-nio-8088-exec-2] o.s.web.cors.DefaultCorsProcessor        : Skip: request is from same origin
-2019-09-04 20:32:48.826 TRACE 22636 --- [http-nio-8088-exec-7] .w.s.m.m.a.ServletInvocableHandlerMethod : Arguments: []
-2019-09-04 20:32:48.828 TRACE 22636 --- [http-nio-8088-exec-5] o.s.web.servlet.DispatcherServlet        : POST "/bizArticle/queryAritcleGroupByType", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:48.829 TRACE 22636 --- [http-nio-8088-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.wzy.controller.portal.BizArticleController.queryAritcleGroupByType(org.springframework.ui.Model)
-2019-09-04 20:32:48.829 TRACE 22636 --- [http-nio-8088-exec-5] o.s.web.cors.DefaultCorsProcessor        : Skip: request is from same origin
-2019-09-04 20:32:48.837 TRACE 22636 --- [http-nio-8088-exec-5] .w.s.m.m.a.ServletInvocableHandlerMethod : Arguments: [{}]
-2019-09-04 20:32:48.837 TRACE 22636 --- [http-nio-8088-exec-2] .w.s.m.m.a.ServletInvocableHandlerMethod : Arguments: [{}]
-2019-09-04 20:32:48.881 DEBUG 22636 --- [http-nio-8088-exec-5] o.s.w.s.v.ContentNegotiatingViewResolver : Selected '*/*' given [*/*]
-2019-09-04 20:32:48.881 TRACE 22636 --- [http-nio-8088-exec-5] o.s.web.servlet.DispatcherServlet        : Rendering view [org.thymeleaf.spring5.view.ThymeleafView@1e485ad] 
-2019-09-04 20:32:48.889 DEBUG 22636 --- [http-nio-8088-exec-2] o.s.w.s.v.ContentNegotiatingViewResolver : Selected '*/*' given [*/*]
-2019-09-04 20:32:48.889 TRACE 22636 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : Rendering view [org.thymeleaf.spring5.view.ThymeleafView@1ef7e6e] 
-2019-09-04 20:32:48.923 DEBUG 22636 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
-2019-09-04 20:32:49.040 DEBUG 22636 --- [http-nio-8088-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
-2019-09-04 20:32:49.081 DEBUG 22636 --- [http-nio-8088-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/javascript, */*;q=0.01] and supported [application/json, application/*+json, application/json, application/*+json]
-2019-09-04 20:32:49.083 TRACE 22636 --- [http-nio-8088-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Writing [ResultMsg(code=200, msg=成功, data={2019年09月=0, 2019年08月=528, 2019年07月=0, 2019年06月=0, 2019年05月=0, 2019 (truncated)...]
-2019-09-04 20:32:49.114 TRACE 22636 --- [http-nio-8088-exec-7] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
-2019-09-04 20:32:49.115 DEBUG 22636 --- [http-nio-8088-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
-2019-09-04 20:32:51.985 TRACE 22636 --- [http-nio-8088-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/bizArticle/singlePost/528", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:51.988 TRACE 22636 --- [http-nio-8088-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.web.servlet.ModelAndView com.wzy.controller.portal.BizArticleController.singlePost(java.lang.Long)
-2019-09-04 20:32:51.996 TRACE 22636 --- [http-nio-8088-exec-8] .w.s.m.m.a.ServletInvocableHandlerMethod : Arguments: [528]
-2019-09-04 20:32:52.204  INFO 22636 --- [http-nio-8088-exec-8] io.lettuce.core.EpollProvider            : Starting without optional epoll library
-2019-09-04 20:32:52.207  INFO 22636 --- [http-nio-8088-exec-8] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
-2019-09-04 20:32:54.405  INFO 22636 --- [http-nio-8088-exec-8] com.wzy.aspect.LimitAspect               : 第1次访问key为 [biz_singlePost_-bizArticle-singlePost-528]，描述为 [测试] 的接口
-2019-09-04 20:32:55.453 DEBUG 22636 --- [http-nio-8088-exec-8] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
-2019-09-04 20:32:55.453 TRACE 22636 --- [http-nio-8088-exec-8] o.s.web.servlet.DispatcherServlet        : Rendering view [org.thymeleaf.spring5.view.ThymeleafView@cbe9af] 
-2019-09-04 20:32:55.464 DEBUG 22636 --- [http-nio-8088-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
-2019-09-04 20:32:55.470 TRACE 22636 --- [http-nio-8088-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/bizArticle/singlePost/img/blog_post_1.png", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:55.471  WARN 22636 --- [http-nio-8088-exec-6] o.s.web.servlet.PageNotFound             : No mapping for GET /bizArticle/singlePost/img/blog_post_1.png
-2019-09-04 20:32:55.471 DEBUG 22636 --- [http-nio-8088-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={}
-2019-09-04 20:32:55.472 TRACE 22636 --- [http-nio-8088-exec-6] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/404", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:55.473  WARN 22636 --- [http-nio-8088-exec-6] o.s.web.servlet.PageNotFound             : No mapping for GET /404
-2019-09-04 20:32:55.473 DEBUG 22636 --- [http-nio-8088-exec-6] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={}
-2019-09-04 20:32:55.537 TRACE 22636 --- [http-nio-8088-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/static/portal/img/tags.png", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:55.538 TRACE 22636 --- [http-nio-8088-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/static/"]] and 4 interceptors
-2019-09-04 20:32:55.539 TRACE 22636 --- [http-nio-8088-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/static/portal/img/views.png", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:55.540 TRACE 22636 --- [http-nio-8088-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/static/"]] and 4 interceptors
-2019-09-04 20:32:55.551 TRACE 22636 --- [http-nio-8088-exec-4] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
-2019-09-04 20:32:55.552 DEBUG 22636 --- [http-nio-8088-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
-2019-09-04 20:32:55.562 TRACE 22636 --- [http-nio-8088-exec-10] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
-2019-09-04 20:32:55.563 DEBUG 22636 --- [http-nio-8088-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
-2019-09-04 20:32:55.593 TRACE 22636 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/static/portal/img/talk.png", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:55.594 TRACE 22636 --- [http-nio-8088-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/bizArticle/singlePost/img/contact-icon.png", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:55.595 TRACE 22636 --- [http-nio-8088-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/static/"]] and 4 interceptors
-2019-09-04 20:32:55.595  WARN 22636 --- [http-nio-8088-exec-9] o.s.web.servlet.PageNotFound             : No mapping for GET /bizArticle/singlePost/img/contact-icon.png
-2019-09-04 20:32:55.595 DEBUG 22636 --- [http-nio-8088-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={}
-2019-09-04 20:32:55.596 TRACE 22636 --- [http-nio-8088-exec-9] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/404", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:55.603  WARN 22636 --- [http-nio-8088-exec-9] o.s.web.servlet.PageNotFound             : No mapping for GET /404
-2019-09-04 20:32:55.604 DEBUG 22636 --- [http-nio-8088-exec-9] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={}
-2019-09-04 20:32:55.606 TRACE 22636 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
-2019-09-04 20:32:55.607 DEBUG 22636 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
-2019-09-04 20:32:55.612 TRACE 22636 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/bizArticle/singlePost/img/close_contact.png", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:55.613  WARN 22636 --- [http-nio-8088-exec-3] o.s.web.servlet.PageNotFound             : No mapping for GET /bizArticle/singlePost/img/close_contact.png
-2019-09-04 20:32:55.614 DEBUG 22636 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={}
-2019-09-04 20:32:55.614 TRACE 22636 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/404", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:55.615  WARN 22636 --- [http-nio-8088-exec-3] o.s.web.servlet.PageNotFound             : No mapping for GET /404
-2019-09-04 20:32:55.615 DEBUG 22636 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={}
-2019-09-04 20:32:55.770 TRACE 22636 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/static/editor/examples/js/jquery.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:55.770 TRACE 22636 --- [http-nio-8088-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/static/editor/lib/prettify.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:55.770 TRACE 22636 --- [http-nio-8088-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/static/editor/lib/marked.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:55.771 TRACE 22636 --- [http-nio-8088-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/static/editor/lib/raphael.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:32:55.771 TRACE 22636 --- [http-nio-8088-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/static/"]] and 4 interceptors
-2019-09-04 20:32:55.771 TRACE 22636 --- [http-nio-8088-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/static/"]] and 4 interceptors
-2019-09-04 20:32:55.772 TRACE 22636 --- [http-nio-8088-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/static/"]] and 4 interceptors
-2019-09-04 20:32:55.772 TRACE 22636 --- [http-nio-8088-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler ["classpath:/static/"]] and 4 interceptors
-2019-09-04 20:32:55.773 TRACE 22636 --- [http-nio-8088-exec-7] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
-2019-09-04 20:32:55.773 DEBUG 22636 --- [http-nio-8088-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
-2019-09-04 20:32:55.774 TRACE 22636 --- [http-nio-8088-exec-5] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
-2019-09-04 20:32:55.774 DEBUG 22636 --- [http-nio-8088-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
-2019-09-04 20:32:55.774 TRACE 22636 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
-2019-09-04 20:32:55.774 DEBUG 22636 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
-2019-09-04 20:32:55.776 TRACE 22636 --- [http-nio-8088-exec-8] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
-2019-09-04 20:32:55.776 DEBUG 22636 --- [http-nio-8088-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
-2019-09-04 20:33:00.594 TRACE 22636 --- [http-nio-8088-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/bizArticle/singlePost/528", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:33:00.596 TRACE 22636 --- [http-nio-8088-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.web.servlet.ModelAndView com.wzy.controller.portal.BizArticleController.singlePost(java.lang.Long)
-2019-09-04 20:33:00.596 TRACE 22636 --- [http-nio-8088-exec-6] .w.s.m.m.a.ServletInvocableHandlerMethod : Arguments: [528]
-2019-09-04 20:33:00.598  INFO 22636 --- [http-nio-8088-exec-6] com.wzy.aspect.LimitAspect               : 第2次访问key为 [biz_singlePost_-bizArticle-singlePost-528]，描述为 [测试] 的接口
-2019-09-04 20:33:00.633 TRACE 22636 --- [http-nio-8088-exec-6] o.s.w.s.v.InternalResourceViewResolver   : View with key [portal/single-post] served from cache
-2019-09-04 20:33:00.634 DEBUG 22636 --- [http-nio-8088-exec-6] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
-2019-09-04 20:33:00.634 TRACE 22636 --- [http-nio-8088-exec-6] o.s.web.servlet.DispatcherServlet        : Rendering view [org.thymeleaf.spring5.view.ThymeleafView@c6e38b] 
-2019-09-04 20:33:00.643 DEBUG 22636 --- [http-nio-8088-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
-2019-09-04 20:33:00.659 TRACE 22636 --- [http-nio-8088-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/bizArticle/singlePost/img/blog_post_1.png", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:33:00.660 TRACE 22636 --- [http-nio-8088-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/bizArticle/singlePost/img/contact-icon.png", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:33:00.661  WARN 22636 --- [http-nio-8088-exec-4] o.s.web.servlet.PageNotFound             : No mapping for GET /bizArticle/singlePost/img/blog_post_1.png
-2019-09-04 20:33:00.661  WARN 22636 --- [http-nio-8088-exec-10] o.s.web.servlet.PageNotFound             : No mapping for GET /bizArticle/singlePost/img/contact-icon.png
-2019-09-04 20:33:00.661 DEBUG 22636 --- [http-nio-8088-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={}
-2019-09-04 20:33:00.662 TRACE 22636 --- [http-nio-8088-exec-10] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/404", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:33:00.661 DEBUG 22636 --- [http-nio-8088-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={}
-2019-09-04 20:33:00.663 TRACE 22636 --- [http-nio-8088-exec-4] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/404", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:33:00.663  WARN 22636 --- [http-nio-8088-exec-10] o.s.web.servlet.PageNotFound             : No mapping for GET /404
-2019-09-04 20:33:00.663 DEBUG 22636 --- [http-nio-8088-exec-10] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={}
-2019-09-04 20:33:00.665  WARN 22636 --- [http-nio-8088-exec-4] o.s.web.servlet.PageNotFound             : No mapping for GET /404
-2019-09-04 20:33:00.666 DEBUG 22636 --- [http-nio-8088-exec-4] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={}
-2019-09-04 20:33:00.732 TRACE 22636 --- [http-nio-8088-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/bizArticle/singlePost/img/close_contact.png", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:33:00.733  WARN 22636 --- [http-nio-8088-exec-9] o.s.web.servlet.PageNotFound             : No mapping for GET /bizArticle/singlePost/img/close_contact.png
-2019-09-04 20:33:00.734 DEBUG 22636 --- [http-nio-8088-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={}
-2019-09-04 20:33:00.734 TRACE 22636 --- [http-nio-8088-exec-9] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/404", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:33:00.735  WARN 22636 --- [http-nio-8088-exec-9] o.s.web.servlet.PageNotFound             : No mapping for GET /404
-2019-09-04 20:33:00.735 DEBUG 22636 --- [http-nio-8088-exec-9] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={}
-2019-09-04 20:33:13.642 TRACE 22636 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/bizArticle/singlePost/528", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:33:13.642 TRACE 22636 --- [http-nio-8088-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.web.servlet.ModelAndView com.wzy.controller.portal.BizArticleController.singlePost(java.lang.Long)
-2019-09-04 20:33:13.643 TRACE 22636 --- [http-nio-8088-exec-1] .w.s.m.m.a.ServletInvocableHandlerMethod : Arguments: [528]
-2019-09-04 20:33:13.644  INFO 22636 --- [http-nio-8088-exec-1] com.wzy.aspect.LimitAspect               : 第3次访问key为 [biz_singlePost_-bizArticle-singlePost-528]，描述为 [测试] 的接口
-2019-09-04 20:33:13.671 TRACE 22636 --- [http-nio-8088-exec-1] o.s.w.s.v.InternalResourceViewResolver   : View with key [portal/single-post] served from cache
-2019-09-04 20:33:13.671 DEBUG 22636 --- [http-nio-8088-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
-2019-09-04 20:33:13.671 TRACE 22636 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Rendering view [org.thymeleaf.spring5.view.ThymeleafView@1ee658b] 
-2019-09-04 20:33:13.684 DEBUG 22636 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
-2019-09-04 20:33:13.697 TRACE 22636 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/bizArticle/singlePost/img/blog_post_1.png", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:33:13.698 TRACE 22636 --- [http-nio-8088-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/bizArticle/singlePost/img/contact-icon.png", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:33:13.699  WARN 22636 --- [http-nio-8088-exec-7] o.s.web.servlet.PageNotFound             : No mapping for GET /bizArticle/singlePost/img/contact-icon.png
-2019-09-04 20:33:13.699 DEBUG 22636 --- [http-nio-8088-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={}
-2019-09-04 20:33:13.699  WARN 22636 --- [http-nio-8088-exec-3] o.s.web.servlet.PageNotFound             : No mapping for GET /bizArticle/singlePost/img/blog_post_1.png
-2019-09-04 20:33:13.699 DEBUG 22636 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={}
-2019-09-04 20:33:13.701 TRACE 22636 --- [http-nio-8088-exec-7] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/404", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:33:13.701 TRACE 22636 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/404", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:33:13.702  WARN 22636 --- [http-nio-8088-exec-7] o.s.web.servlet.PageNotFound             : No mapping for GET /404
-2019-09-04 20:33:13.702 DEBUG 22636 --- [http-nio-8088-exec-7] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={}
-2019-09-04 20:33:13.702  WARN 22636 --- [http-nio-8088-exec-3] o.s.web.servlet.PageNotFound             : No mapping for GET /404
-2019-09-04 20:33:13.703 DEBUG 22636 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={}
-2019-09-04 20:33:13.750 TRACE 22636 --- [http-nio-8088-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/bizArticle/singlePost/img/close_contact.png", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:33:13.750  WARN 22636 --- [http-nio-8088-exec-5] o.s.web.servlet.PageNotFound             : No mapping for GET /bizArticle/singlePost/img/close_contact.png
-2019-09-04 20:33:13.751 DEBUG 22636 --- [http-nio-8088-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={}
-2019-09-04 20:33:13.751 TRACE 22636 --- [http-nio-8088-exec-5] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/404", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:33:13.751  WARN 22636 --- [http-nio-8088-exec-5] o.s.web.servlet.PageNotFound             : No mapping for GET /404
-2019-09-04 20:33:13.751 DEBUG 22636 --- [http-nio-8088-exec-5] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={}
-2019-09-04 20:33:16.786 TRACE 22636 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/bizArticle/singlePost/528", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:33:16.786 TRACE 22636 --- [http-nio-8088-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.web.servlet.ModelAndView com.wzy.controller.portal.BizArticleController.singlePost(java.lang.Long)
-2019-09-04 20:33:16.786 TRACE 22636 --- [http-nio-8088-exec-2] .w.s.m.m.a.ServletInvocableHandlerMethod : Arguments: [528]
-2019-09-04 20:33:16.788  INFO 22636 --- [http-nio-8088-exec-2] com.wzy.aspect.LimitAspect               : 第4次访问key为 [biz_singlePost_-bizArticle-singlePost-528]，描述为 [测试] 的接口
-2019-09-04 20:33:16.840 TRACE 22636 --- [http-nio-8088-exec-2] o.s.w.s.v.InternalResourceViewResolver   : View with key [portal/single-post] served from cache
-2019-09-04 20:33:16.840 DEBUG 22636 --- [http-nio-8088-exec-2] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
-2019-09-04 20:33:16.840 TRACE 22636 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : Rendering view [org.thymeleaf.spring5.view.ThymeleafView@167ef31] 
-2019-09-04 20:33:16.847 DEBUG 22636 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
-2019-09-04 20:33:16.858 TRACE 22636 --- [http-nio-8088-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/bizArticle/singlePost/img/contact-icon.png", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:33:16.858 TRACE 22636 --- [http-nio-8088-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/bizArticle/singlePost/img/blog_post_1.png", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:33:16.859  WARN 22636 --- [http-nio-8088-exec-6] o.s.web.servlet.PageNotFound             : No mapping for GET /bizArticle/singlePost/img/contact-icon.png
-2019-09-04 20:33:16.859 DEBUG 22636 --- [http-nio-8088-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={}
-2019-09-04 20:33:16.860 TRACE 22636 --- [http-nio-8088-exec-6] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/404", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:33:16.860  WARN 22636 --- [http-nio-8088-exec-8] o.s.web.servlet.PageNotFound             : No mapping for GET /bizArticle/singlePost/img/blog_post_1.png
-2019-09-04 20:33:16.861  WARN 22636 --- [http-nio-8088-exec-6] o.s.web.servlet.PageNotFound             : No mapping for GET /404
-2019-09-04 20:33:16.861 DEBUG 22636 --- [http-nio-8088-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={}
-2019-09-04 20:33:16.861 DEBUG 22636 --- [http-nio-8088-exec-6] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={}
-2019-09-04 20:33:16.861 TRACE 22636 --- [http-nio-8088-exec-8] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/404", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:33:16.862  WARN 22636 --- [http-nio-8088-exec-8] o.s.web.servlet.PageNotFound             : No mapping for GET /404
-2019-09-04 20:33:16.863 DEBUG 22636 --- [http-nio-8088-exec-8] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={}
-2019-09-04 20:33:16.910 TRACE 22636 --- [http-nio-8088-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/bizArticle/singlePost/img/close_contact.png", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:33:16.911  WARN 22636 --- [http-nio-8088-exec-10] o.s.web.servlet.PageNotFound             : No mapping for GET /bizArticle/singlePost/img/close_contact.png
-2019-09-04 20:33:16.911 DEBUG 22636 --- [http-nio-8088-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={}
-2019-09-04 20:33:16.911 TRACE 22636 --- [http-nio-8088-exec-10] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/404", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:33:16.911  WARN 22636 --- [http-nio-8088-exec-10] o.s.web.servlet.PageNotFound             : No mapping for GET /404
-2019-09-04 20:33:16.911 DEBUG 22636 --- [http-nio-8088-exec-10] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={}
-2019-09-04 20:33:17.639 TRACE 22636 --- [http-nio-8088-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/bizArticle/singlePost/528", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:33:17.640 TRACE 22636 --- [http-nio-8088-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.web.servlet.ModelAndView com.wzy.controller.portal.BizArticleController.singlePost(java.lang.Long)
-2019-09-04 20:33:17.640 TRACE 22636 --- [http-nio-8088-exec-4] .w.s.m.m.a.ServletInvocableHandlerMethod : Arguments: [528]
-2019-09-04 20:33:17.641  INFO 22636 --- [http-nio-8088-exec-4] com.wzy.aspect.LimitAspect               : 第5次访问key为 [biz_singlePost_-bizArticle-singlePost-528]，描述为 [测试] 的接口
-2019-09-04 20:33:17.678 TRACE 22636 --- [http-nio-8088-exec-4] o.s.w.s.v.InternalResourceViewResolver   : View with key [portal/single-post] served from cache
-2019-09-04 20:33:17.678 DEBUG 22636 --- [http-nio-8088-exec-4] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
-2019-09-04 20:33:17.678 TRACE 22636 --- [http-nio-8088-exec-4] o.s.web.servlet.DispatcherServlet        : Rendering view [org.thymeleaf.spring5.view.ThymeleafView@ac6036] 
-2019-09-04 20:33:17.684 DEBUG 22636 --- [http-nio-8088-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
-2019-09-04 20:33:17.696 TRACE 22636 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/bizArticle/singlePost/img/contact-icon.png", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:33:17.696 TRACE 22636 --- [http-nio-8088-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/bizArticle/singlePost/img/blog_post_1.png", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:33:17.697  WARN 22636 --- [http-nio-8088-exec-1] o.s.web.servlet.PageNotFound             : No mapping for GET /bizArticle/singlePost/img/contact-icon.png
-2019-09-04 20:33:17.697 DEBUG 22636 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={}
-2019-09-04 20:33:17.697  WARN 22636 --- [http-nio-8088-exec-9] o.s.web.servlet.PageNotFound             : No mapping for GET /bizArticle/singlePost/img/blog_post_1.png
-2019-09-04 20:33:17.697 DEBUG 22636 --- [http-nio-8088-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={}
-2019-09-04 20:33:17.697 TRACE 22636 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/404", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:33:17.698 TRACE 22636 --- [http-nio-8088-exec-9] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/404", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:33:17.698  WARN 22636 --- [http-nio-8088-exec-1] o.s.web.servlet.PageNotFound             : No mapping for GET /404
-2019-09-04 20:33:17.698 DEBUG 22636 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={}
-2019-09-04 20:33:17.699  WARN 22636 --- [http-nio-8088-exec-9] o.s.web.servlet.PageNotFound             : No mapping for GET /404
-2019-09-04 20:33:17.699 DEBUG 22636 --- [http-nio-8088-exec-9] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={}
-2019-09-04 20:33:17.739 TRACE 22636 --- [http-nio-8088-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/bizArticle/singlePost/img/close_contact.png", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:33:17.740  WARN 22636 --- [http-nio-8088-exec-7] o.s.web.servlet.PageNotFound             : No mapping for GET /bizArticle/singlePost/img/close_contact.png
-2019-09-04 20:33:17.740 DEBUG 22636 --- [http-nio-8088-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={}
-2019-09-04 20:33:17.741 TRACE 22636 --- [http-nio-8088-exec-7] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/404", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:33:17.741  WARN 22636 --- [http-nio-8088-exec-7] o.s.web.servlet.PageNotFound             : No mapping for GET /404
-2019-09-04 20:33:17.741 DEBUG 22636 --- [http-nio-8088-exec-7] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={}
-2019-09-04 20:33:18.346 TRACE 22636 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/bizArticle/singlePost/528", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:33:18.346 TRACE 22636 --- [http-nio-8088-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.web.servlet.ModelAndView com.wzy.controller.portal.BizArticleController.singlePost(java.lang.Long)
-2019-09-04 20:33:18.347 TRACE 22636 --- [http-nio-8088-exec-3] .w.s.m.m.a.ServletInvocableHandlerMethod : Arguments: [528]
-2019-09-04 20:33:18.394 DEBUG 22636 --- [http-nio-8088-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler public org.springframework.http.ResponseEntity<com.wzy.common.exception.ErrorDto> com.wzy.WholeExceptionHandle.exception(java.lang.Exception,javax.servlet.http.HttpServletResponse)
-2019-09-04 20:33:18.394 TRACE 22636 --- [http-nio-8088-exec-3] .w.s.m.m.a.ServletInvocableHandlerMethod : Arguments: [java.lang.RuntimeException: 访问次数受限制, org.apache.catalina.connector.ResponseFacade@e58add]
-2019-09-04 20:33:18.395 DEBUG 22636 --- [http-nio-8088-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
-2019-09-04 20:33:18.395 TRACE 22636 --- [http-nio-8088-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [ErrorDto(errorCode=0, tips=访问次数受限制)]
-2019-09-04 20:33:18.397 DEBUG 22636 --- [http-nio-8088-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.RuntimeException: 访问次数受限制]
-2019-09-04 20:33:18.397 TRACE 22636 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
-2019-09-04 20:33:18.397 DEBUG 22636 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
-2019-09-04 20:34:10.790 TRACE 22636 --- [http-nio-8088-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/bizArticle/singlePost/528", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:34:10.791 TRACE 22636 --- [http-nio-8088-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.web.servlet.ModelAndView com.wzy.controller.portal.BizArticleController.singlePost(java.lang.Long)
-2019-09-04 20:34:10.791 TRACE 22636 --- [http-nio-8088-exec-10] .w.s.m.m.a.ServletInvocableHandlerMethod : Arguments: [528]
-2019-09-04 20:34:10.793  INFO 22636 --- [http-nio-8088-exec-10] com.wzy.aspect.LimitAspect               : 第1次访问key为 [biz_singlePost_-bizArticle-singlePost-528]，描述为 [测试] 的接口
-2019-09-04 20:34:10.848 TRACE 22636 --- [http-nio-8088-exec-10] o.s.w.s.v.InternalResourceViewResolver   : View with key [portal/single-post] served from cache
-2019-09-04 20:34:10.848 DEBUG 22636 --- [http-nio-8088-exec-10] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
-2019-09-04 20:34:10.848 TRACE 22636 --- [http-nio-8088-exec-10] o.s.web.servlet.DispatcherServlet        : Rendering view [org.thymeleaf.spring5.view.ThymeleafView@57a60f] 
-2019-09-04 20:34:10.854 DEBUG 22636 --- [http-nio-8088-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
-2019-09-04 20:34:10.871 TRACE 22636 --- [http-nio-8088-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/bizArticle/singlePost/img/blog_post_1.png", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:34:10.873  WARN 22636 --- [http-nio-8088-exec-4] o.s.web.servlet.PageNotFound             : No mapping for GET /bizArticle/singlePost/img/blog_post_1.png
-2019-09-04 20:34:10.873 DEBUG 22636 --- [http-nio-8088-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={}
-2019-09-04 20:34:10.875 TRACE 22636 --- [http-nio-8088-exec-4] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/404", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:34:10.875  WARN 22636 --- [http-nio-8088-exec-4] o.s.web.servlet.PageNotFound             : No mapping for GET /404
-2019-09-04 20:34:10.876 DEBUG 22636 --- [http-nio-8088-exec-4] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={}
-2019-09-04 20:34:10.985 TRACE 22636 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/bizArticle/singlePost/img/contact-icon.png", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:34:10.986  WARN 22636 --- [http-nio-8088-exec-1] o.s.web.servlet.PageNotFound             : No mapping for GET /bizArticle/singlePost/img/contact-icon.png
-2019-09-04 20:34:10.986 DEBUG 22636 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={}
-2019-09-04 20:34:10.987 TRACE 22636 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/404", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:34:10.987  WARN 22636 --- [http-nio-8088-exec-1] o.s.web.servlet.PageNotFound             : No mapping for GET /404
-2019-09-04 20:34:10.987 DEBUG 22636 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={}
-2019-09-04 20:34:11.082 TRACE 22636 --- [http-nio-8088-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/bizArticle/singlePost/img/close_contact.png", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:34:11.083  WARN 22636 --- [http-nio-8088-exec-9] o.s.web.servlet.PageNotFound             : No mapping for GET /bizArticle/singlePost/img/close_contact.png
-2019-09-04 20:34:11.083 DEBUG 22636 --- [http-nio-8088-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={}
-2019-09-04 20:34:11.083 TRACE 22636 --- [http-nio-8088-exec-9] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/404", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:34:11.084  WARN 22636 --- [http-nio-8088-exec-9] o.s.web.servlet.PageNotFound             : No mapping for GET /404
-2019-09-04 20:34:11.085 DEBUG 22636 --- [http-nio-8088-exec-9] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={}
-2019-09-04 20:34:58.311 TRACE 22636 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/bizArticle/singlePost/528", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:34:58.311 TRACE 22636 --- [http-nio-8088-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.web.servlet.ModelAndView com.wzy.controller.portal.BizArticleController.singlePost(java.lang.Long)
-2019-09-04 20:34:58.312 TRACE 22636 --- [http-nio-8088-exec-3] .w.s.m.m.a.ServletInvocableHandlerMethod : Arguments: [528]
-2019-09-04 20:35:59.700  WARN 22636 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m16s168ms489µs800ns).
-2019-09-04 20:36:22.089  INFO 22636 --- [http-nio-8088-exec-3] com.wzy.aspect.LimitAspect               : 第1次访问key为 [biz_singlePost_-bizArticle-singlePost-528]，描述为 [测试] 的接口
-2019-09-04 20:36:22.157 TRACE 22636 --- [http-nio-8088-exec-3] o.s.w.s.v.InternalResourceViewResolver   : View with key [portal/single-post] served from cache
-2019-09-04 20:36:22.158 DEBUG 22636 --- [http-nio-8088-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
-2019-09-04 20:36:22.158 TRACE 22636 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : Rendering view [org.thymeleaf.spring5.view.ThymeleafView@1f268db] 
-2019-09-04 20:36:22.163 DEBUG 22636 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
-2019-09-04 20:36:22.177 TRACE 22636 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/bizArticle/singlePost/img/blog_post_1.png", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:36:22.178 TRACE 22636 --- [http-nio-8088-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/bizArticle/singlePost/img/contact-icon.png", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:36:22.178  WARN 22636 --- [http-nio-8088-exec-2] o.s.web.servlet.PageNotFound             : No mapping for GET /bizArticle/singlePost/img/blog_post_1.png
-2019-09-04 20:36:22.178 DEBUG 22636 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={}
-2019-09-04 20:36:22.179  WARN 22636 --- [http-nio-8088-exec-8] o.s.web.servlet.PageNotFound             : No mapping for GET /bizArticle/singlePost/img/contact-icon.png
-2019-09-04 20:36:22.179 DEBUG 22636 --- [http-nio-8088-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={}
-2019-09-04 20:36:22.179 TRACE 22636 --- [http-nio-8088-exec-8] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/404", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:36:22.179 TRACE 22636 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/404", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:36:22.180  WARN 22636 --- [http-nio-8088-exec-8] o.s.web.servlet.PageNotFound             : No mapping for GET /404
-2019-09-04 20:36:22.180  WARN 22636 --- [http-nio-8088-exec-2] o.s.web.servlet.PageNotFound             : No mapping for GET /404
-2019-09-04 20:36:22.180 DEBUG 22636 --- [http-nio-8088-exec-8] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={}
-2019-09-04 20:36:22.180 DEBUG 22636 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={}
-2019-09-04 20:36:22.324 TRACE 22636 --- [http-nio-8088-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/bizArticle/singlePost/img/close_contact.png", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:36:22.325  WARN 22636 --- [http-nio-8088-exec-6] o.s.web.servlet.PageNotFound             : No mapping for GET /bizArticle/singlePost/img/close_contact.png
-2019-09-04 20:36:22.326 DEBUG 22636 --- [http-nio-8088-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={}
-2019-09-04 20:36:22.326 TRACE 22636 --- [http-nio-8088-exec-6] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/404", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
-2019-09-04 20:36:22.326  WARN 22636 --- [http-nio-8088-exec-6] o.s.web.servlet.PageNotFound             : No mapping for GET /404
-2019-09-04 20:36:22.327 DEBUG 22636 --- [http-nio-8088-exec-6] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={}
-2019-09-04 20:36:52.089  WARN 22636 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=52s389ms436µs800ns).
-2019-09-04 20:37:12.929  INFO 22636 --- [Thread-7] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
-2019-09-04 20:37:12.930  INFO 22636 --- [Thread-7] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
-2019-09-04 20:37:12.931  INFO 22636 --- [Thread-7] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
-2019-09-04 20:37:12.931  INFO 22636 --- [Thread-7] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
-2019-09-04 20:37:12.931  INFO 22636 --- [Thread-7] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
-2019-09-04 20:37:12.937  INFO 22636 --- [Thread-7] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-09-04 20:37:12.939  INFO 22636 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2019-09-04 20:37:12.945  INFO 22636 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-09-24 20:32:56.217  INFO 24944 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019-09-24 20:32:56.217  INFO 24944 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.2.1
+2019-09-24 20:32:56.217  INFO 24944 --- [main] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@1ee1c13
+2019-09-24 20:32:56.300  INFO 24944 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-09-24 20:32:56.368  INFO 24944 --- [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2019-09-24 20:32:56.368  INFO 24944 --- [main] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2019-09-24 20:32:56.501  INFO 24944 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2019-09-24 20:32:56.504  INFO 24944 --- [main] com.wzy.SystemApplication                : Started SystemApplication in 10.272 seconds (JVM running for 11.876)
+2019-09-24 20:33:21.192  INFO 24944 --- [Thread-7] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-09-24 20:33:21.193  INFO 24944 --- [Thread-7] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2019-09-24 20:33:21.194  INFO 24944 --- [Thread-7] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2019-09-24 20:33:21.194  INFO 24944 --- [Thread-7] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-09-24 20:33:21.194  INFO 24944 --- [Thread-7] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2019-09-24 20:33:21.201  INFO 24944 --- [Thread-7] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-24 20:33:21.202  INFO 24944 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-09-24 20:33:21.209  INFO 24944 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

@@ -53,7 +53,7 @@ logging:
     java.sql: info
     org.springframework.web: trace
   path: ./logs
-#  config: classpath:log4j2.xml
+  config: classpath:logback-spring.xml
 
 management:
   health:
